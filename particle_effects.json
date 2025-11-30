@@ -1,0 +1,3571 @@
+{
+  "core": [
+    "_fog_foundry",
+    "_fog_plane",
+    "bang_blood",
+    "bang_blood_car",
+    "bang_carmetal",
+    "bang_concrete",
+    "bang_dirt_dry",
+    "bang_hydraulics",
+    "bang_metal",
+    "bang_mud",
+    "bang_plastic",
+    "bang_sand",
+    "bang_sand_underwater",
+    "bang_wood",
+    "blood_animal_maul",
+    "blood_armour",
+    "blood_armour_heavy",
+    "blood_chopper",
+    "blood_entry",
+    "blood_entry_head_sniper",
+    "blood_entry_shotgun",
+    "blood_entry_sniper",
+    "blood_exit",
+    "blood_fall",
+    "blood_headshot",
+    "blood_melee_blunt",
+    "blood_melee_punch",
+    "blood_mist",
+    "blood_mist_prop",
+    "blood_mouth",
+    "blood_nose",
+    "blood_shark_attack",
+    "blood_stab",
+    "blood_stab_uw",
+    "blood_stungun",
+    "blood_throat",
+    "blood_wheel",
+    "bul_brick",
+    "bul_brick_heli",
+    "bul_bushes",
+    "bul_cardboard",
+    "bul_carmetal",
+    "bul_carmetal_heli",
+    "bul_chickenfarm",
+    "bul_concrete",
+    "bul_concrete_heli",
+    "bul_concrete_minigun",
+    "bul_decal_blood",
+    "bul_decal_mud",
+    "bul_decal_oil",
+    "bul_decal_petrol",
+    "bul_decal_water",
+    "bul_decal_water_heli",
+    "bul_dirt",
+    "bul_dirt_heli",
+    "bul_foam",
+    "bul_glass",
+    "bul_glass_heli",
+    "bul_glass_mini",
+    "bul_glass_shotgun",
+    "bul_glass_tv",
+    "bul_grass",
+    "bul_grass_heli",
+    "bul_gravel",
+    "bul_gravel_heli",
+    "bul_hay",
+    "bul_leaves",
+    "bul_mud",
+    "bul_mud_heli",
+    "bul_paper",
+    "bul_plaster_brittle",
+    "bul_plastic",
+    "bul_rubber_dust",
+    "bul_sand_loose",
+    "bul_sand_loose_heli",
+    "bul_sb_hal_skel_armour",
+    "bul_sb_hal_skel_bone",
+    "bul_stungun",
+    "bul_stungun_metal",
+    "bul_tarmac",
+    "bul_tarmac_heli",
+    "bul_water",
+    "bul_water_heli",
+    "bul_wood_splinter",
+    "bul_wood_splinter_heli",
+    "bullet_shotgun_tracer",
+    "bullet_tracer",
+    "bullet_tracer_jet",
+    "bullet_tracer_mg",
+    "bullet_tracer_railgun",
+    "eject_auto",
+    "eject_auto_fp",
+    "eject_heli_gun",
+    "eject_minigun",
+    "eject_pistol",
+    "eject_pistol_fp",
+    "eject_shotgun",
+    "eject_shotgun_fp",
+    "eject_smg_fp",
+    "eject_sniper",
+    "eject_sniper_amrifle",
+    "eject_sniper_heavy",
+    "eject_stungun",
+    "ent_amb_abattoir_carcass",
+    "ent_amb_abattoir_saw_blood",
+    "ent_amb_acid_bath",
+    "ent_amb_barrel_fire",
+    "ent_amb_barrel_fire_race",
+    "ent_amb_beach_campfire",
+    "ent_amb_bubble_stream",
+    "ent_amb_butterflys_swarm",
+    "ent_amb_candle_flame",
+    "ent_amb_cig_smoke_linger",
+    "ent_amb_cluckb_steam",
+    "ent_amb_cockroach_swarm",
+    "ent_amb_cockroaches",
+    "ent_amb_cold_air_floor",
+    "ent_amb_cold_air_vent",
+    "ent_amb_drain_splash",
+    "ent_amb_dry_ice_area",
+    "ent_amb_dry_ice_vent",
+    "ent_amb_dust_motes",
+    "ent_amb_elec_crackle",
+    "ent_amb_elec_crackle_sp",
+    "ent_amb_exhaust_thick",
+    "ent_amb_exhaust_thin",
+    "ent_amb_falling_cherry_bloss",
+    "ent_amb_falling_leaves_l",
+    "ent_amb_falling_leaves_m",
+    "ent_amb_falling_leaves_s",
+    "ent_amb_falling_palm_leaves",
+    "ent_amb_fbi_cinder",
+    "ent_amb_fbi_door_smoke",
+    "ent_amb_fbi_falling_debris",
+    "ent_amb_fbi_falling_debris_sp",
+    "ent_amb_fbi_fire_beam",
+    "ent_amb_fbi_fire_door",
+    "ent_amb_fbi_fire_drip",
+    "ent_amb_fbi_fire_dub_door",
+    "ent_amb_fbi_fire_fogball",
+    "ent_amb_fbi_fire_lg",
+    "ent_amb_fbi_fire_sm",
+    "ent_amb_fbi_fire_wall_lg",
+    "ent_amb_fbi_fire_wall_sm",
+    "ent_amb_fbi_light_door",
+    "ent_amb_fbi_live_wires",
+    "ent_amb_fbi_smoke_creep",
+    "ent_amb_fbi_smoke_door_hvy",
+    "ent_amb_fbi_smoke_door_lt",
+    "ent_amb_fbi_smoke_door_med",
+    "ent_amb_fbi_smoke_edge_lip",
+    "ent_amb_fbi_smoke_fogball",
+    "ent_amb_fbi_smoke_land_hvy",
+    "ent_amb_fbi_smoke_land_lt",
+    "ent_amb_fbi_smoke_land_med",
+    "ent_amb_fbi_smoke_linger_hvy",
+    "ent_amb_fbi_smoke_linger_lt",
+    "ent_amb_fbi_smoke_ramp_hvy",
+    "ent_amb_fbi_smoke_ramp_lt",
+    "ent_amb_fbi_smoke_ramp_med",
+    "ent_amb_fbi_smoke_stair_gather",
+    "ent_amb_fbi_smoulder_lg",
+    "ent_amb_fbi_smoulder_sm",
+    "ent_amb_fire_gaswork",
+    "ent_amb_fire_ring",
+    "ent_amb_floating_debris",
+    "ent_amb_fly_swarm",
+    "ent_amb_fly_zapped",
+    "ent_amb_fly_zapped_spawned",
+    "ent_amb_foundry_arc_heat",
+    "ent_amb_foundry_dust",
+    "ent_amb_foundry_fogball",
+    "ent_amb_foundry_heat_haze",
+    "ent_amb_foundry_molten_pour",
+    "ent_amb_foundry_steam",
+    "ent_amb_foundry_steam_spawn",
+    "ent_amb_fountain_double",
+    "ent_amb_fountain_mansion2",
+    "ent_amb_fountain_pour",
+    "ent_amb_fountain_rodeo",
+    "ent_amb_generator_smoke",
+    "ent_amb_insect_plane",
+    "ent_amb_insect_swarm",
+    "ent_amb_int_fireplace",
+    "ent_amb_int_fireplace_sml",
+    "ent_amb_int_waterfall_runoff",
+    "ent_amb_int_waterfall_splash",
+    "ent_amb_jazuzzi",
+    "ent_amb_leaves_ficus_g",
+    "ent_amb_leaves_oak_g",
+    "ent_amb_leaves_pine",
+    "ent_amb_moths_cupboard",
+    "ent_amb_moths_swarm",
+    "ent_amb_peeing",
+    "ent_amb_pro_elec_fires",
+    "ent_amb_rapid_area_spray",
+    "ent_amb_rapid_area_spray_hvy",
+    "ent_amb_rapid_dir_splash",
+    "ent_amb_rapid_dir_splash_light",
+    "ent_amb_rapid_dir_splash_wide",
+    "ent_amb_rapid_dir_spray",
+    "ent_amb_rapid_rock_drips",
+    "ent_amb_river_mist_gen",
+    "ent_amb_river_splash_gen",
+    "ent_amb_sewer_drips_lg",
+    "ent_amb_sewer_drips_med",
+    "ent_amb_sewer_drips_sm",
+    "ent_amb_sewer_drips_spawned",
+    "ent_amb_sewer_drips_spawned_lg",
+    "ent_amb_smoke_chicken",
+    "ent_amb_smoke_factory",
+    "ent_amb_smoke_factory_white",
+    "ent_amb_smoke_foundry",
+    "ent_amb_smoke_foundry_white",
+    "ent_amb_smoke_gaswork",
+    "ent_amb_smoke_general",
+    "ent_amb_smoke_scrap",
+    "ent_amb_snow_mist_base",
+    "ent_amb_snow_mist_upper",
+    "ent_amb_sol1_plane_wreck",
+    "ent_amb_sparking_wires",
+    "ent_amb_sprinkler_city",
+    "ent_amb_sprinkler_city_sml",
+    "ent_amb_sprinkler_crop",
+    "ent_amb_sprinkler_golf",
+    "ent_amb_steam",
+    "ent_amb_steam_pipe_hvy",
+    "ent_amb_steam_pipe_lgt",
+    "ent_amb_steam_prison",
+    "ent_amb_steam_vent_open_hvy",
+    "ent_amb_steam_vent_open_lgt",
+    "ent_amb_steam_vent_rnd_hvy",
+    "ent_amb_steam_vent_round",
+    "ent_amb_stoner_dust_drop",
+    "ent_amb_stoner_falling_debris",
+    "ent_amb_stoner_falling_wchips",
+    "ent_amb_stoner_landing",
+    "ent_amb_stoner_rubble_drop",
+    "ent_amb_stoner_vent_smoke",
+    "ent_amb_stoner_woodchip_drop",
+    "ent_amb_tap_drip",
+    "ent_amb_tnl_bubbles_lge",
+    "ent_amb_tnl_bubbles_sml",
+    "ent_amb_torch_fire",
+    "ent_amb_trev1_trailer_sp_f",
+    "ent_amb_trev1_trailer_sp_s",
+    "ent_amb_trevor_tap_drip",
+    "ent_amb_trop_fish_swarm",
+    "ent_amb_trop_fish_swarm_angel",
+    "ent_amb_trop_fish_swarm_col",
+    "ent_amb_trop_fish_swarm_lil",
+    "ent_amb_vent_haze_lg",
+    "ent_amb_vent_haze_sm",
+    "ent_amb_water_drips_dam_med",
+    "ent_amb_water_drips_lg",
+    "ent_amb_water_drips_med",
+    "ent_amb_water_drips_sm",
+    "ent_amb_water_drips_spawned",
+    "ent_amb_water_drips_spawned_lg",
+    "ent_amb_water_roof_drips",
+    "ent_amb_water_roof_drips_thin",
+    "ent_amb_water_roof_pour",
+    "ent_amb_water_roof_pour_long",
+    "ent_amb_water_splash_wide",
+    "ent_amb_waterfall_pool",
+    "ent_amb_waterfall_runoff",
+    "ent_amb_waterfall_splash",
+    "ent_amb_waterfall_splash_p",
+    "ent_amb_wfall_splash_lg",
+    "ent_amb_wfall_splash_med",
+    "ent_amb_wfall_splash_sml",
+    "ent_amb_wind_grass",
+    "ent_amb_wind_grass_dir",
+    "ent_amb_wind_hay",
+    "ent_amb_wind_hay_dir",
+    "ent_amb_wind_leaves",
+    "ent_amb_wind_leaves_dir",
+    "ent_amb_wind_leaves_swirl",
+    "ent_amb_wind_litter",
+    "ent_amb_wind_litter_dir",
+    "ent_amb_wind_litter_dust",
+    "ent_amb_wind_litter_dust_dir",
+    "ent_amb_wind_litter_dust_swirl",
+    "ent_amb_wind_litter_swirl",
+    "ent_amb_wind_rand_litter",
+    "ent_amb_wind_tree_leaves",
+    "ent_anim_animal_graze",
+    "ent_anim_bbq",
+    "ent_anim_blown_radiator",
+    "ent_anim_bm_water_mist",
+    "ent_anim_bm_water_scp",
+    "ent_anim_cig_exhale_mth",
+    "ent_anim_cig_exhale_mth_car",
+    "ent_anim_cig_exhale_nse",
+    "ent_anim_cig_exhale_nse_car",
+    "ent_anim_cig_smoke",
+    "ent_anim_cig_smoke_car",
+    "ent_anim_dusty_hands",
+    "ent_anim_fish_breath_bubbles",
+    "ent_anim_fish_flee_bubbles",
+    "ent_anim_gardener_plant",
+    "ent_anim_hen_flee",
+    "ent_anim_leaf_blower",
+    "ent_anim_paparazzi_flash",
+    "ent_anim_pneumatic_drill",
+    "ent_anim_snot_blow",
+    "ent_anim_street_sweep",
+    "ent_anim_weed_smoke",
+    "ent_anim_welder",
+    "ent_brk_banknotes",
+    "ent_brk_blood",
+    "ent_brk_cactus",
+    "ent_brk_champagne_case",
+    "ent_brk_coins",
+    "ent_brk_concrete",
+    "ent_brk_gate_smoke",
+    "ent_brk_lamppost_base",
+    "ent_brk_metal_frag",
+    "ent_brk_sparking_wires",
+    "ent_brk_sparking_wires_sp",
+    "ent_brk_steam_burst",
+    "ent_brk_tree_leaves",
+    "ent_brk_tree_trunk_bark",
+    "ent_brk_uprooted",
+    "ent_brk_wood_planks",
+    "ent_brk_wood_splinter",
+    "ent_col_bush_leaves",
+    "ent_col_electrical",
+    "ent_col_falling_snow",
+    "ent_col_gen_tree_dust",
+    "ent_col_palm_leaves",
+    "ent_col_rocks",
+    "ent_col_tree_leaves",
+    "ent_col_tree_oranges",
+    "ent_dst_box_noodle",
+    "ent_dst_bread",
+    "ent_dst_casino_chips",
+    "ent_dst_ceramics",
+    "ent_dst_ceramics_tint",
+    "ent_dst_chick_carcass",
+    "ent_dst_chip_carrier",
+    "ent_dst_cig_packets",
+    "ent_dst_concrete",
+    "ent_dst_concrete_large",
+    "ent_dst_crispbags",
+    "ent_dst_donuts",
+    "ent_dst_dust",
+    "ent_dst_egg_mulch",
+    "ent_dst_elec_crackle",
+    "ent_dst_elec_fire",
+    "ent_dst_elec_fire_sp",
+    "ent_dst_electrical",
+    "ent_dst_gen_cardboard",
+    "ent_dst_gen_choc",
+    "ent_dst_gen_food",
+    "ent_dst_gen_gobstop",
+    "ent_dst_gen_liquid_burst",
+    "ent_dst_gen_paper",
+    "ent_dst_gen_plastic_cont",
+    "ent_dst_gen_water_spray",
+    "ent_dst_glass_bottles",
+    "ent_dst_glass_bulb",
+    "ent_dst_hobo_trolley",
+    "ent_dst_inflatable",
+    "ent_dst_inflate_ball",
+    "ent_dst_inflate_ball_clr",
+    "ent_dst_inflate_lilo",
+    "ent_dst_inflate_ring",
+    "ent_dst_litter",
+    "ent_dst_mail",
+    "ent_dst_metal_frag",
+    "ent_dst_newspaper",
+    "ent_dst_office_paper",
+    "ent_dst_paint_cans",
+    "ent_dst_pineapple",
+    "ent_dst_plant_leaves",
+    "ent_dst_polystyrene",
+    "ent_dst_pumpkin",
+    "ent_dst_rocks",
+    "ent_dst_rocks_small",
+    "ent_dst_rubbish",
+    "ent_dst_snow_tombs",
+    "ent_dst_sweet_boxes",
+    "ent_dst_upholstery",
+    "ent_dst_veg_shrub",
+    "ent_dst_wet_sand",
+    "ent_dst_wood_chunky",
+    "ent_dst_wood_planks",
+    "ent_dst_wood_splinter",
+    "ent_dst_xt_snowman",
+    "ent_ray_ch2_farm_fire_dble",
+    "ent_ray_ch2_farm_fire_l_l_l",
+    "ent_ray_ch2_farm_fire_u_l",
+    "ent_ray_ch2_farm_resi_dble",
+    "ent_ray_ch2_farm_smoke_dble",
+    "ent_ray_fam3_dust_motes",
+    "ent_ray_fin_petrol_splash",
+    "ent_ray_finale_vault_haze",
+    "ent_ray_finale_vault_sparks",
+    "ent_ray_finale1_fire",
+    "ent_ray_heli_aprtmnt_embers",
+    "ent_ray_heli_aprtmnt_exp",
+    "ent_ray_heli_aprtmnt_h_fire",
+    "ent_ray_heli_aprtmnt_l_fire",
+    "ent_ray_heli_aprtmnt_s_fire",
+    "ent_ray_heli_aprtmnt_s_fire_sq",
+    "ent_ray_heli_aprtmnt_silt",
+    "ent_ray_heli_aprtmnt_sprk_wrs",
+    "ent_ray_heli_aprtmnt_water",
+    "ent_ray_meth_fires",
+    "ent_ray_paleto_gas_flames",
+    "ent_ray_paleto_gas_plume_amb",
+    "ent_ray_paleto_gas_plume_amb_L",
+    "ent_ray_paleto_gas_window_fire",
+    "ent_ray_pro1_water_drip",
+    "ent_ray_pro1_water_splash_spawn",
+    "ent_ray_prologue_elec_crackle",
+    "ent_ray_prologue_elec_crackle_sp",
+    "ent_ray_shipwreck_bubbles",
+    "ent_ray_shipwreck_oil",
+    "ent_ray_tanker_petrol_spray",
+    "ent_ray_train_water_wash",
+    "ent_sht_beer_barrel",
+    "ent_sht_beer_containers",
+    "ent_sht_blood",
+    "ent_sht_bush_foliage",
+    "ent_sht_cactus",
+    "ent_sht_cardboard",
+    "ent_sht_dust",
+    "ent_sht_electrical_box",
+    "ent_sht_extinguisher",
+    "ent_sht_extinguisher_water",
+    "ent_sht_feathers",
+    "ent_sht_flame",
+    "ent_sht_gloopy_liquid",
+    "ent_sht_molten_liquid",
+    "ent_sht_oil",
+    "ent_sht_paint_cans",
+    "ent_sht_paper_bails",
+    "ent_sht_petrol",
+    "ent_sht_petrol_fire",
+    "ent_sht_rubbish",
+    "ent_sht_steam",
+    "ent_sht_telegraph_pole",
+    "ent_sht_water",
+    "ent_sht_water_tower",
+    "env_bar_haze",
+    "env_cloud",
+    "env_dust_devil_rural_lrg",
+    "env_dust_devil_rural_sma",
+    "env_dust_devil_urban_lrg",
+    "env_dust_devil_urban_sma",
+    "env_dust_motes",
+    "env_dust_motes_int_hvy",
+    "env_dust_motes_int_recycle",
+    "env_fog",
+    "env_gunsmoke",
+    "env_gunsmoke_paper_factory",
+    "env_interior_chickenfarm",
+    "env_interior_dusty",
+    "env_interior_foundry",
+    "env_smoke_fbi",
+    "env_smoke_fbi_thin",
+    "env_smoke_grenade",
+    "env_snow_flakes",
+    "env_stripclub_haze",
+    "env_wind_debris",
+    "env_wind_debris_city",
+    "env_wind_debris_countryside",
+    "env_wind_debris_desert",
+    "env_wind_debris_mountain",
+    "env_wind_debris_woodland",
+    "env_wind_sand_dune",
+    "exp_air_blimp",
+    "exp_air_blimp_sp",
+    "exp_air_blimp2",
+    "exp_air_blimp2_sp",
+    "exp_air_grenade",
+    "exp_air_grenade_lod",
+    "exp_air_molotov",
+    "exp_air_molotov_lod",
+    "exp_air_plane_rpg_spawn",
+    "exp_air_post",
+    "exp_air_rpg",
+    "exp_air_rpg_lod",
+    "exp_air_rpg_plane",
+    "exp_air_rpg_plane_lod",
+    "exp_air_rpg_plane_sp",
+    "exp_air_rpg_sp",
+    "exp_air_snowball",
+    "exp_air_vehicle",
+    "exp_air_vehicle_lod",
+    "exp_arc_grd_flashbang",
+    "exp_arc_grd_flashbang_lod",
+    "exp_arc_stun_grenade",
+    "exp_arc_stun_grenade_lod",
+    "exp_bird_crap",
+    "exp_extinguisher",
+    "exp_grd_barrel",
+    "exp_grd_boat",
+    "exp_grd_boat_lod",
+    "exp_grd_boat_sp",
+    "exp_grd_boat_spawn",
+    "exp_grd_bzgas_smoke",
+    "exp_grd_flare",
+    "exp_grd_gas_can",
+    "exp_grd_gren_sp",
+    "exp_grd_grenade",
+    "exp_grd_grenade_lod",
+    "exp_grd_grenade_smoke",
+    "exp_grd_molotov",
+    "exp_grd_molotov_lod",
+    "exp_grd_petrol_pump",
+    "exp_grd_petrol_pump_post",
+    "exp_grd_petrol_pump_sp",
+    "exp_grd_petrol_pump_spawn",
+    "exp_grd_plane",
+    "exp_grd_plane_lod",
+    "exp_grd_plane_post",
+    "exp_grd_plane_sp",
+    "exp_grd_plane_spawn",
+    "exp_grd_post",
+    "exp_grd_propane",
+    "exp_grd_rpg",
+    "exp_grd_rpg_lod",
+    "exp_grd_rpg_plane",
+    "exp_grd_rpg_plane_sp",
+    "exp_grd_rpg_post",
+    "exp_grd_rpg_sp",
+    "exp_grd_rpg_spawn",
+    "exp_grd_snowball",
+    "exp_grd_sticky",
+    "exp_grd_sticky_lod",
+    "exp_grd_sticky_sp",
+    "exp_grd_sub_large",
+    "exp_grd_sub_large_sp",
+    "exp_grd_sub_large_spawn",
+    "exp_grd_sub_large_spawn_sp",
+    "exp_grd_tankshell",
+    "exp_grd_tankshell_lod",
+    "exp_grd_train",
+    "exp_grd_vehicle",
+    "exp_grd_vehicle_lod",
+    "exp_grd_vehicle_post",
+    "exp_grd_vehicle_sp",
+    "exp_grd_vehicle_spawn",
+    "exp_hydrant",
+    "exp_hydrant_decals_sp",
+    "exp_sec_launched_emp",
+    "exp_sht_extinguisher",
+    "exp_sht_flame",
+    "exp_sht_steam",
+    "exp_water",
+    "exp_xs_mine_emp",
+    "exp_xs_mine_kinetic",
+    "exp_xs_mine_slick",
+    "exp_xs_mine_spike",
+    "exp_xs_mine_tar",
+    "exp_xs_ray",
+    "fire_extinguish",
+    "fire_map",
+    "fire_map_quick",
+    "fire_map_slow",
+    "fire_object",
+    "fire_ped_body",
+    "fire_ped_limb",
+    "fire_ped_smoulder",
+    "fire_petrol_half",
+    "fire_petrol_one",
+    "fire_petrol_pool",
+    "fire_petrol_script",
+    "fire_petrol_two",
+    "fire_petroltank_bike",
+    "fire_petroltank_boat",
+    "fire_petroltank_car",
+    "fire_petroltank_car_bullet",
+    "fire_petroltank_heli",
+    "fire_petroltank_plane",
+    "fire_petroltank_truck",
+    "fire_vehicle",
+    "fire_wheel",
+    "fire_wheel_bike",
+    "fire_wrecked_bike",
+    "fire_wrecked_boat",
+    "fire_wrecked_bus",
+    "fire_wrecked_car",
+    "fire_wrecked_car_vent",
+    "fire_wrecked_heli",
+    "fire_wrecked_heli_cockpit",
+    "fire_wrecked_plane",
+    "fire_wrecked_plane_cockpit",
+    "fire_wrecked_rc",
+    "fire_wrecked_tank",
+    "fire_wrecked_tank_cockpit",
+    "fire_wrecked_train",
+    "fire_wrecked_truck",
+    "fire_wrecked_truck_vent",
+    "glass_shards",
+    "glass_side_window",
+    "glass_side_window_PC",
+    "glass_smash",
+    "glass_windscreen",
+    "lens_blaze",
+    "lens_bug_dirt",
+    "lens_noir",
+    "lens_rain",
+    "lens_smoke",
+    "lens_snow",
+    "lens_test",
+    "lens_water",
+    "lens_water_run",
+    "liquid_splash_blood",
+    "liquid_splash_gloopy",
+    "liquid_splash_oil",
+    "liquid_splash_paint",
+    "liquid_splash_pee",
+    "liquid_splash_petrol",
+    "liquid_splash_water",
+    "mel_carmetal",
+    "mel_concrete",
+    "mel_glass",
+    "mp_parachute_smoke",
+    "muz_alternate_star",
+    "muz_alternate_star_fp",
+    "muz_assault_rifle",
+    "muz_assault_rifle_fp",
+    "muz_buzzard",
+    "muz_hunter",
+    "muz_laser",
+    "muz_minigun",
+    "muz_minigun_alt",
+    "muz_pistol",
+    "muz_pistol_fp",
+    "muz_pistol_silencer",
+    "muz_railgun",
+    "muz_rpg",
+    "muz_shotgun",
+    "muz_smg",
+    "muz_smg_fp",
+    "muz_smoking_barrel",
+    "muz_smoking_barrel_fp",
+    "muz_smoking_barrel_minigun",
+    "muz_smoking_barrel_rocket",
+    "muz_smoking_barrel_shotgun",
+    "muz_stungun",
+    "muz_tank",
+    "ped_bang_sand_underwater",
+    "ped_blood_drips",
+    "ped_blood_pool_water",
+    "ped_breath",
+    "ped_breath_scuba",
+    "ped_breath_water",
+    "ped_foot_bushes",
+    "ped_foot_chickenfarm",
+    "ped_foot_decal_blood",
+    "ped_foot_decal_mud",
+    "ped_foot_decal_oil",
+    "ped_foot_decal_petrol",
+    "ped_foot_decal_water",
+    "ped_foot_dirt_dry",
+    "ped_foot_dusty",
+    "ped_foot_gravel",
+    "ped_foot_gravel_deep",
+    "ped_foot_sand_deep",
+    "ped_foot_sand_wet_deep",
+    "ped_foot_water",
+    "ped_foot_water_puddle",
+    "ped_foot_woodchips",
+    "ped_parachute_canopy_trail",
+    "ped_parachute_open",
+    "ped_parachute_trail",
+    "ped_scrape_sand_underwater",
+    "ped_underwater_disturb_dirt",
+    "ped_underwater_disturb_sand",
+    "ped_underwater_trails",
+    "ped_wade_mud",
+    "ped_wade_sand",
+    "ped_wade_sand_wet",
+    "ped_water_drips",
+    "proj_disturb_dust",
+    "proj_flare_fuse",
+    "proj_flare_fuse_fp",
+    "proj_flare_trail",
+    "proj_grenade_smoke",
+    "proj_grenade_trail",
+    "proj_laser_enemy",
+    "proj_laser_player",
+    "proj_missile_trail",
+    "proj_missile_underwater",
+    "proj_molotov_flame",
+    "proj_molotov_flame_fp",
+    "proj_molotov_trail",
+    "proj_rpg_trail",
+    "proj_tank_trail",
+    "rim_fric_hard",
+    "scr_agency3b_sprinkler_off",
+    "scr_agency3b_sprinkler_on",
+    "scr_exp_alt",
+    "scr_fbi_falling_dust",
+    "scr_fbi_ground_debris",
+    "scr_fire_map_alt",
+    "scr_fire_object_alt",
+    "scr_fire_petrol_alt",
+    "scrape_blood",
+    "scrape_blood_car",
+    "scrape_concrete",
+    "scrape_dirt_dry",
+    "scrape_metal",
+    "scrape_mud",
+    "scrape_plastic",
+    "scrape_sand",
+    "scrape_sand_underwater",
+    "scrape_veg",
+    "shark_underwater_trails",
+    "shotgun_water",
+    "sp_ent_sparking_wires",
+    "sp_fbi_fire_drip_trails",
+    "sp_fire_trail_heli",
+    "sp_fire_trail_plane",
+    "sp_foundry_sparks",
+    "sp_petrolcan_splash",
+    "td_blood_hatchet",
+    "td_blood_hatchet_back",
+    "td_blood_melee_blunt",
+    "td_blood_pistol",
+    "td_blood_shotgun",
+    "td_blood_stab",
+    "td_blood_throat",
+    "trail_splash_blood",
+    "trail_splash_oil",
+    "trail_splash_petrol",
+    "trail_splash_water",
+    "veh_air_debris",
+    "veh_air_turbulance_default",
+    "veh_air_turbulance_dirt",
+    "veh_air_turbulance_foliage",
+    "veh_air_turbulance_sand",
+    "veh_air_turbulance_water",
+    "veh_backfire",
+    "veh_backfire_narrow",
+    "veh_debris_trail",
+    "veh_downwash",
+    "veh_downwash_dirt",
+    "veh_downwash_foliage",
+    "veh_downwash_sand",
+    "veh_downwash_water",
+    "veh_exhaust_afterburner",
+    "veh_exhaust_boat",
+    "veh_exhaust_car",
+    "veh_exhaust_cargo",
+    "veh_exhaust_cuban800",
+    "veh_exhaust_heli",
+    "veh_exhaust_heli_cargobob",
+    "veh_exhaust_heli_cargobob_misfire",
+    "veh_exhaust_heli_misfire",
+    "veh_exhaust_heli_skylift",
+    "veh_exhaust_hidden",
+    "veh_exhaust_misfire",
+    "veh_exhaust_plane",
+    "veh_exhaust_plane_misfire",
+    "veh_exhaust_plane_start",
+    "veh_exhaust_spacecraft",
+    "veh_exhaust_start",
+    "veh_exhaust_start_bike",
+    "veh_exhaust_titan",
+    "veh_exhaust_trailer_chimney",
+    "veh_exhaust_truck",
+    "veh_exhaust_truck_rig",
+    "veh_exhaust_tug",
+    "veh_exhaust_velum",
+    "veh_exhaust_vulkan",
+    "veh_faggio_exhaust",
+    "veh_light_amber",
+    "veh_light_clear",
+    "veh_light_red",
+    "veh_light_red_trail",
+    "veh_oil_leak",
+    "veh_oil_slick",
+    "veh_overturned_exhaust",
+    "veh_panel_open_car",
+    "veh_panel_open_carHK",
+    "veh_panel_open_truck",
+    "veh_panel_shut_car",
+    "veh_panel_shut_feltzer2010",
+    "veh_panel_shut_tank",
+    "veh_panel_shut_truck",
+    "veh_petrol_leak",
+    "veh_petrol_leak_bike",
+    "veh_petrol_leak_bullet",
+    "veh_plane_damage",
+    "veh_plane_eject",
+    "veh_plane_propeller_destroy",
+    "veh_prop_sub",
+    "veh_prop_submersible",
+    "veh_respray_smoke",
+    "veh_rotor_break",
+    "veh_rotor_break_tail",
+    "veh_slipstream",
+    "veh_sm_car_small_backfire",
+    "veh_sub_crush",
+    "veh_sub_dive",
+    "veh_sub_leak",
+    "veh_trailer_petrol_spray",
+    "veh_train_sparks",
+    "veh_vent_bike",
+    "veh_vent_boat",
+    "veh_vent_heli",
+    "veh_vent_heli_anh",
+    "veh_vent_heli_cargobob",
+    "veh_vent_heli_frogger",
+    "veh_vent_heli_skylift",
+    "veh_vent_plane",
+    "veh_vent_plane_duster",
+    "veh_vent_plane_lazer",
+    "veh_vent_plane_titan",
+    "veh_vent_rc",
+    "veh_wheel_burst",
+    "veh_wheel_puncture",
+    "veh_wheel_puncture_rc",
+    "veh_wind_litter_dir",
+    "veh_wingtip",
+    "veh_wingtip_cargo",
+    "water_amph_car_bow",
+    "water_amph_car_bow_mounted",
+    "water_amph_car_entry",
+    "water_amph_car_rev",
+    "water_amph_prop",
+    "water_amph_quad_bow",
+    "water_amph_quad_bow_mounted",
+    "water_amph_quad_entry",
+    "water_amph_quad_rev",
+    "water_boat_bow",
+    "water_boat_dinghy_bow",
+    "water_boat_dinghy_bow_mounted",
+    "water_boat_entry",
+    "water_boat_entry2",
+    "water_boat_exit",
+    "water_boat_jetmax_bow",
+    "water_boat_LOD",
+    "water_boat_Marques_bow",
+    "water_boat_prop",
+    "water_boat_rev",
+    "water_boat_Suntrap_bow",
+    "water_boat_Tropic_bow",
+    "water_boat_wash",
+    "water_cannon_jet",
+    "water_cannon_spray",
+    "water_heli_blades",
+    "water_jetmax_exit",
+    "water_jetski_bow1",
+    "water_jetski_bow1_mounted",
+    "water_jetski_entry2",
+    "water_jetski_exit",
+    "water_jetski_prop",
+    "water_jetski_rev",
+    "water_splash_animal_wade",
+    "water_splash_bicycle_in",
+    "water_splash_bicycle_out",
+    "water_splash_bicycle_trail",
+    "water_splash_bicycle_wade",
+    "water_splash_bike_in",
+    "water_splash_bike_out",
+    "water_splash_bike_trail",
+    "water_splash_bike_wade",
+    "water_splash_generic",
+    "water_splash_obj_in",
+    "water_splash_obj_trail",
+    "water_splash_ped",
+    "water_splash_ped_bubbles",
+    "water_splash_ped_in",
+    "water_splash_ped_out",
+    "water_splash_ped_wade",
+    "water_splash_plane_in",
+    "water_splash_plane_out",
+    "water_splash_plane_trail",
+    "water_splash_plane_wade",
+    "water_splash_shark_wade",
+    "water_splash_sub_in",
+    "water_splash_sub_null_loop",
+    "water_splash_sub_null_trig",
+    "water_splash_sub_out",
+    "water_splash_sub_wade",
+    "water_splash_veh_in",
+    "water_splash_veh_out",
+    "water_splash_veh_trail",
+    "water_splash_veh_wade",
+    "water_splash_vehicle",
+    "water_splash_whale_wade",
+    "weap_extinguisher",
+    "weap_heist_flare_trail",
+    "weap_hvy_turbulance_default",
+    "weap_hvy_turbulance_dirt",
+    "weap_hvy_turbulance_foliage",
+    "weap_hvy_turbulance_sand",
+    "weap_hvy_turbulance_water",
+    "weap_petrol_can",
+    "weap_smoke_grenade",
+    "weap_veh_turbulance_default",
+    "weap_veh_turbulance_dirt",
+    "weap_veh_turbulance_foliage",
+    "weap_veh_turbulance_sand",
+    "weap_veh_turbulance_water",
+    "wheel_burnout",
+    "wheel_decal_blood",
+    "wheel_decal_blood_Bike",
+    "wheel_decal_mud",
+    "wheel_decal_mud_Bike",
+    "wheel_decal_mud_Tank",
+    "wheel_decal_oil",
+    "wheel_decal_oil_Bike",
+    "wheel_decal_petrol",
+    "wheel_decal_petrol_Bike",
+    "wheel_decal_puddle",
+    "wheel_decal_puddle_Bike",
+    "wheel_decal_sand_deep",
+    "wheel_decal_sand_wet_deep",
+    "wheel_decal_slush",
+    "wheel_decal_water",
+    "wheel_decal_water_Bike",
+    "wheel_decal_water_Bike_Deep",
+    "wheel_decal_water_deep",
+    "wheel_decal_water_Tank",
+    "wheel_fric_dusty_LOD",
+    "wheel_fric_grass",
+    "wheel_fric_grass_bike",
+    "wheel_fric_grass_LOD",
+    "wheel_fric_grass_Tank",
+    "wheel_fric_gravel",
+    "wheel_fric_gravel_Bike",
+    "wheel_fric_gravel_LOD",
+    "wheel_fric_gravel_Tank",
+    "wheel_fric_hard",
+    "wheel_fric_hard_Bike",
+    "wheel_fric_hard_dusty",
+    "wheel_fric_hard_dusty_Bike",
+    "wheel_fric_hard_dusty_Tank",
+    "wheel_fric_hard_tank",
+    "wheel_fric_leaves",
+    "wheel_fric_leaves_Bike",
+    "wheel_fric_leaves_Tank",
+    "wheel_fric_mud",
+    "wheel_fric_mud_Bike",
+    "wheel_fric_sand",
+    "wheel_fric_sand_Bike",
+    "wheel_fric_sand_LOD",
+    "wheel_fric_sand_Tank",
+    "wheel_fric_sandWet_Bike",
+    "wheel_fric_sandWet_LOD",
+    "wheel_fric_sandWet_Tank",
+    "wheel_fric_water",
+    "wheel_fric_water_Bike",
+    "wheel_spin_blood",
+    "wheel_spin_grass",
+    "wheel_spin_gravel",
+    "wheel_spin_leaves",
+    "wheel_spin_mud",
+    "wheel_spin_sand",
+    "wheel_spin_sandWet",
+    "wheel_spin_water",
+    "wheel_spin_water_deep",
+    "wtr_rocks_rnd_splash",
+    "wtr_rocks_wall_splash",
+    "wtr_sea_pole_splash"
+  ],
+  "core_snow": [
+    "bang_snow",
+    "bul_snow",
+    "cs_mich1_spade_dirt_impact",
+    "cs_mich1_spade_dirt_throw",
+    "cs_mich1_spade_dirt_trail",
+    "lens_snow",
+    "ped_foot_snow",
+    "ped_wade_snow",
+    "scrape_snow",
+    "veh_roof_snow",
+    "wheel_fric_snow",
+    "wheel_fric_snow_Bike",
+    "wheel_fric_snow_LOD",
+    "wheel_fric_snow_loose",
+    "wheel_spin_snow"
+  ],
+  "cut_agencyheist": [
+    "cs_agency_toaster_smoke",
+    "cs_weap_petrol_can",
+    "sp_petrolcan_splash_CS"
+  ],
+  "cut_amb_tv": [
+    "cs_amb_tv_book_burn",
+    "cs_amb_tv_peeing",
+    "cs_amb_tv_sauna_steam",
+    "cs_mich1_lighter_flame",
+    "cs_mich1_lighter_sparks",
+    "liquid_splash_pee"
+  ],
+  "cut_arena": [
+    "cs_arena_car_exhaust"
+  ],
+  "cut_armenian1": [
+    "cs_arm2_muz_smg",
+    "cs_ped_foot_dusty"
+  ],
+  "cut_armenian2": [
+    "blood_entry",
+    "cs_bike_exhaust",
+    "eject_auto",
+    "eject_minigun",
+    "eject_pistol",
+    "muz_assault_rifle",
+    "muz_pistol",
+    "muz_smg",
+    "veh_exhaust_car"
+  ],
+  "cut_bigscore": [
+    "cs_dry_ice_freezer_door",
+    "cs_dry_ice_freezer_floor",
+    "cs_dry_ice_point"
+  ],
+  "cut_bigscr": [
+    "cs_bigscr_beer_spray",
+    "cs_bigscr_cig_exhale_mouth",
+    "cs_bigscr_cig_smoke",
+    "cs_bigscr_eject_auto",
+    "cs_bigscr_eject_shotgun",
+    "cs_bigscr_muz_ar",
+    "cs_bigscr_muz_shotgun",
+    "cs_bigscr_muz_smg",
+    "cut_bigscr_vomit"
+  ],
+  "cut_carsteal1": [
+    "cs_wheel_fric_sand_Bike",
+    "veh_exhaust_car"
+  ],
+  "cut_carsteal5": [
+    "cs_car2_bang_blood",
+    "veh_exhaust_car"
+  ],
+  "cut_chinese1": [
+    "cs_ch1_bourbon_pour",
+    "cs_ch1_head_bang_blood",
+    "cs_ch1_veh_exhaust_car",
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_dry_ice_freezer_door",
+    "cs_dry_ice_freezer_floor",
+    "cs_dry_ice_point",
+    "cs_head_kick_blood"
+  ],
+  "cut_exile1": [
+    "bul_carmetal",
+    "bullet_shotgun_tracer",
+    "cs_ex1_cargo_fire",
+    "cs_ex1_elec_malfunction",
+    "cs_ex1_plane_break_L",
+    "cs_ex1_plane_break_R",
+    "cs_ex1_plane_debris_trail",
+    "cs_ex1_plane_impacts",
+    "cs_ex1_plane_spark_L",
+    "cs_ex1_plane_spark_R",
+    "cs_ex1_sparking_wires_sm",
+    "cs_ex1_wing_smoulder",
+    "eject_shotgun",
+    "ent_amb_peeing",
+    "ent_amb_sparking_wires_sm_sp",
+    "liquid_splash_pee",
+    "muz_pistol",
+    "muz_shotgun"
+  ],
+  "cut_exile2": [
+    "cs_ex2_jeep_crash",
+    "cs_exile2_gas_liquid_pour",
+    "cs_exile2_iron_steam",
+    "cs_fridge_door_cold_mist",
+    "cs_weap_petrol_can",
+    "scr_ex2_jeep_engine_fire",
+    "sp_petrolcan_splash_CS",
+    "wheel_fric_sand"
+  ],
+  "cut_exile3": [
+    "cs_ex1_water_arms",
+    "cs_ex1_water_body",
+    "cs_ex1_water_box",
+    "cs_ex3_sand_dust",
+    "cs_ex3_water_drips",
+    "cs_ex3_wheel_spin"
+  ],
+  "cut_extreme": [
+    "cs_extr_bang_dirt",
+    "cs_ped_foot_dusty"
+  ],
+  "cut_family1": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_cig_smoke_stub_out",
+    "cs_fam1_bourbon_pour",
+    "cs_fam6_hair_snip",
+    "cs_mich1_lighter_flame",
+    "cs_mich1_lighter_sparks",
+    "veh_exhaust_car"
+  ],
+  "cut_family2": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_cig_smoke_inhale",
+    "cs_cig_smoke_stub_out",
+    "cs_fam2_foot_sand",
+    "cs_fam2_ped_splash",
+    "cs_fam2_ped_water_splash",
+    "cs_fam2_radio_splash",
+    "cs_water_splash_jetski",
+    "ped_water_drips"
+  ],
+  "cut_family3": [
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_fam3_brk_pot_plant",
+    "cs_fam3_cig_exhale_mouth",
+    "cs_fam3_drool_drip",
+    "cs_mich1_lighter_flame",
+    "cs_mich1_lighter_sparks"
+  ],
+  "cut_family4": [
+    "cs_fam4_fridge_door",
+    "cs_fam4_juice_pour",
+    "cs_fam4_juice_shot",
+    "cs_fam4_juice_spit",
+    "cs_fam4_juice_splash",
+    "cs_fam4_liquid_broccoli",
+    "cs_fam4_shot_chandelier",
+    "cs_fam4_water_pour",
+    "cs_fam4_whiskey_pour",
+    "cs_fam4_whiskey_splash",
+    "muz_pistol",
+    "water_splash_veh_wade",
+    "wheel_decal_water_deep"
+  ],
+  "cut_family5": [
+    "cs_alien_hand_light",
+    "cs_alien_light_bed",
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_fam4_whiskey_splash",
+    "cs_fam5_bourbon_pour",
+    "cs_fam5_michael_pool_splash",
+    "cs_fam5_ped_water_drips",
+    "cs_fam5_water_splash_ped",
+    "cs_fam5_water_splash_ped_in",
+    "cs_fam5_water_splash_ped_out",
+    "cs_fam5_water_splash_ped_wade",
+    "cs_mich1_lighter_flame",
+    "cs_mich1_lighter_sparks",
+    "ped_breath_water",
+    "ped_underwater_trails"
+  ],
+  "cut_fbi2": [
+    "cs_fib2_blood_hand",
+    "ped_foot_dirt_dry",
+    "veh_downwash"
+  ],
+  "cut_fbi3": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_fib3_syringe",
+    "cs_mich1_lighter_flame",
+    "cs_mich1_lighter_sparks",
+    "cs_wheel_fric_sand_Bike"
+  ],
+  "cut_fbi4": [
+    "cs_water_stone_throw"
+  ],
+  "cut_fbi5a": [
+    "cs_fbi5a_blood_entry",
+    "cs_fbi5a_muz_pistol",
+    "cs_trev1_dusty_kick",
+    "ped_talk_water",
+    "ped_water_drips",
+    "wheel_fric_sand"
+  ],
+  "cut_fbi5b": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "ped_foot_dusty"
+  ],
+  "cut_finale1": [
+    "bang_carmetal",
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_mouth_finale",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_fbi5a_muz_pistol",
+    "cs_fin_bang_carmetal",
+    "cs_fin_bul_carmetal",
+    "cs_fin_car_cliff_debris",
+    "cs_fin_car_impact",
+    "cs_fin_car_radiator_smoke",
+    "cs_finale_car_explosion_splashes_spawn",
+    "cs_finale1_car_explosion",
+    "cs_finale1_car_explosion_surge_spawn",
+    "cs_finale1_car_splash",
+    "cs_finale1_car_splash_impact",
+    "cs_finale2_dust_cloud",
+    "cs_finale3_punch_blood",
+    "cs_mich1_lighter_flame",
+    "cs_mich1_lighter_sparks",
+    "cs_water_splash_jetski",
+    "cs_wheel_fric_sand_Bike",
+    "exp_grd_rpg_spawn",
+    "veh_exhaust_car",
+    "veh_exhaust_hidden",
+    "veh_exhaust_truck",
+    "wheel_fric_dirt_dry"
+  ],
+  "cut_franklin0": [
+    "cs_franklin0_dog_drool",
+    "cs_franklin0_dog_shake",
+    "cs_franklin0_scrape_bike",
+    "veh_exhaust_car",
+    "wheel_burnout",
+    "wheel_fric_hard_Bike"
+  ],
+  "cut_franklin1": [
+    "cs_frank1_coke_drip",
+    "cs_frank1_coke_impact",
+    "cs_frank1_coke_sniff",
+    "cs_franklin1_dry_wall",
+    "cs_water_splash_jetski"
+  ],
+  "cut_g9_mig": [
+    "cut_g9_mig_break_dust",
+    "cut_g9_mig_disturb_dust",
+    "cut_g9_mig_veh_exhaust"
+  ],
+  "cut_gr_intro": [
+    "cs_gr_muz_assault_rifle"
+  ],
+  "cut_hs3f": [
+    "cut_hs3f_blood_entry",
+    "cut_hs3f_ceiling_debris",
+    "cut_hs3f_cig_smoke",
+    "cut_hs3f_dust_motes",
+    "cut_hs3f_esc_skid_smoke",
+    "cut_hs3f_exp_tunnel",
+    "cut_hs3f_exp_vault",
+    "cut_hs3f_muz_pistol",
+    "cut_hs3f_muz_smg",
+    "cut_hs3f_tunnel_collapse",
+    "sp_cut_hs3f_ceiling_debris",
+    "sp_cut_hs3f_exp_vault",
+    "sp_cut_hs3f_exp_vault_r"
+  ],
+  "cut_hs4": [
+    "cut_hs4_camera_flash",
+    "cut_hs4_cctv_animal_bite",
+    "cut_hs4_cctv_animal_maul",
+    "cut_hs4_cctv_animal_rip",
+    "cut_hs4_cctv_blood_pool",
+    "cut_hs4_champagne_pour",
+    "cut_hs4_champagne_spray",
+    "cut_hs4_cig_exhale_mouth",
+    "cut_hs4_cig_smoke",
+    "cut_hs4_plane_exhaust",
+    "cut_hs4_plane_exhaust_velum",
+    "cut_hs4_plane_land_disturb_dust",
+    "cut_hs4_plane_land_wheel_skid",
+    "cut_hs4_winky_exhaust",
+    "cut_hs4_wrench_bang_metal"
+  ],
+  "cut_hs4f": [
+    "cut_hs4f_app_exhaust_plane",
+    "cut_hs4f_exp_gate",
+    "cut_hs4f_flipper_bubbles",
+    "cut_hs4f_photo_burn",
+    "cut_hs4f_scuba_breath",
+    "cut_hs4f_sub_propeller"
+  ],
+  "cut_humane_fin": [
+    "exp_hum_fin_heli",
+    "exp_hum_fin_heli_sp",
+    "exp_hum_fin_heli_spawn",
+    "ped_foot_dusty",
+    "sp_hum_fin_heli_fire_trail",
+    "veh_exhaust_car",
+    "wheel_fric_hard_dusty"
+  ],
+  "cut_humane_key": [
+    "blood_entry",
+    "bul_carmetal",
+    "bul_concrete",
+    "eject_pistol",
+    "muz_pistol"
+  ],
+  "cut_iaaj": [
+    "bullet_tracer_xm_thruster_mg",
+    "muz_xm_thruster_mg",
+    "veh_thruster_jet",
+    "veh_xm_thruster_afterburner"
+  ],
+  "cut_jewelheist": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_jewel_door_smoke",
+    "cs_jewel_grenade_burst",
+    "cs_jh_bourbon_pour",
+    "scr_jewel_haze"
+  ],
+  "cut_jh_trev": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_head_kick_blood",
+    "cs_jh_bourbon_pour",
+    "cs_trev1_beer_bottle",
+    "cs_trev1_crackpipe_smoke",
+    "cs_trev1_dusty_kick",
+    "cs_trev1_lighter_flame",
+    "cs_trev1_lighter_sparks",
+    "cs_trev1_trailer_wash"
+  ],
+  "cut_josh_4": [
+    "scr_josh3_house_smoked"
+  ],
+  "cut_lamar1": [
+    "blood_entry",
+    "cs_cig_smoke_lamar",
+    "cs_lemar_blood_entry",
+    "muz_pistol"
+  ],
+  "cut_lester1a": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_lest1_cig_smoke",
+    "cs_mich1_lighter_flame",
+    "cs_mich1_lighter_sparks"
+  ],
+  "cut_lester1b": [
+    "cs_lest1_phone_exp",
+    "scr_blood_head_entry",
+    "scr_blood_head_exit",
+    "scr_camera_flash",
+    "scr_exp_phone_head"
+  ],
+  "cut_martin1": [
+    "cs_martin1_wheel_dust",
+    "cs_sol1_plane_wreck_smoke",
+    "scr_sol1_plane_wreck"
+  ],
+  "cut_michael1": [
+    "bul_carmetal",
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_cig_smoke_stub_out",
+    "cs_mich1_breath",
+    "cs_mich1_pick_dirt_impact",
+    "cs_mich1_pick_dirt_trail",
+    "cs_mich1_spade_dirt_impact",
+    "cs_mich1_spade_dirt_throw",
+    "cs_mich1_spade_dirt_trail",
+    "cs_mich1_tool_dirt_impact",
+    "cs_ped_foot_snow",
+    "eject_pistol",
+    "muz_pistol",
+    "veh_exhaust_vulkan"
+  ],
+  "cut_michael2": [
+    "cs_bul_concrete",
+    "cs_chaingun_muz",
+    "cs_mich_bul_carmetal",
+    "cs_mich2_blood_head_leak",
+    "cs_mich2_blood_nose",
+    "cs_mich2_mud_flower",
+    "cs_ped_foot_snow",
+    "eject_auto",
+    "eject_pistol",
+    "liquid_splash_blood",
+    "muz_assault_rifle",
+    "muz_pistol"
+  ],
+  "cut_minute2": [
+    "cs_mich3_blood_entry",
+    "cs_mich3_blood_exit",
+    "cs_mich3_head_shot",
+    "cs_rc_minuteman1_spit",
+    "eject_auto",
+    "eject_pistol",
+    "muz_assault_rifle",
+    "muz_pistol",
+    "ped_foot_dusty"
+  ],
+  "cut_mpcas": [
+    "cut_mpcas_blood_entry",
+    "cut_mpcas_bul_brick",
+    "cut_mpcas_champagne_pour",
+    "cut_mpcas_champagne_spray",
+    "cut_mpcas_eject_pistol",
+    "cut_mpcas_eject_smg",
+    "cut_mpcas_helicopter_downwash",
+    "cut_mpcas_muz_pistol",
+    "cut_mpcas_muz_smg",
+    "cut_mpcas_wine_pour"
+  ],
+  "cut_mpsui": [
+    "cut_mpsui_champagne_spray"
+  ],
+  "cut_narcotic_bike": [
+    "cs_dst_impotent_rage_toy"
+  ],
+  "cut_narcotic_fin": [
+    "bul_dirt",
+    "cs_fam2_ped_splash",
+    "cs_fam5_water_splash_ped_out",
+    "cs_nar_fin_trevor_arm_drips",
+    "cs_nar_fin_trevor_splash",
+    "eject_pistol",
+    "muz_pistol"
+  ],
+  "cut_omega2": [
+    "cs_omega2_ambient_smoke",
+    "cs_omega2_ufo"
+  ],
+  "cut_pacific_fin": [
+    "bul_wood_splinter",
+    "cs_pac_fin_skid_smoke",
+    "water_boat_dinghy_bow",
+    "water_boat_prop",
+    "water_boat_wash",
+    "wheel_fric_hard"
+  ],
+  "cut_paletoscore": [
+    "bul_carmetal",
+    "bullet_shotgun_tracer",
+    "cs_cbh_heli_gas_sign",
+    "cs_cbh_heli_roof",
+    "cs_cbh_heli_smoke",
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_paleto_blowtorch",
+    "cs_paleto_bowl_steam",
+    "cs_paleto_gate_kick",
+    "cs_paleto_torch",
+    "cs_paleto_vomit",
+    "eject_shotgun",
+    "ent_amb_peeing",
+    "liquid_splash_pee",
+    "liquid_splash_water",
+    "muz_minigun",
+    "muz_minigun_alt",
+    "muz_shotgun",
+    "scr_paleto_banknotes",
+    "veh_exhaust_car",
+    "wheel_fric_sand"
+  ],
+  "cut_portoflsheist": [
+    "cs_ped_foot_dusty",
+    "cs_pls_head_bang_blood",
+    "cs_pls_ped_splash",
+    "cs_pls_sub_water_drips",
+    "cs_pls_tea_pour"
+  ],
+  "cut_prison_break": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_cig_smoke_inhale"
+  ],
+  "cut_prologue": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_mouth_prologue",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_cig_smoke_prologue",
+    "cs_ped_foot_snow",
+    "cs_pro_blood_exit",
+    "cs_pro_bul_carmetal",
+    "cs_pro_car_crash_snow",
+    "cs_pro_car_impact",
+    "cs_pro_car_train_impact",
+    "cs_pro_glass_smash",
+    "cs_pro_muz_assault_rifle",
+    "cs_pro_muz_shotgun",
+    "cs_pro_ped_breath",
+    "cs_pro_train_sparks",
+    "cs_pro_wheel_snow",
+    "cs_prologue_brad_blood",
+    "cs_prologue_michael_shot",
+    "cs_prologue_tire_mist",
+    "cs_prologue_train_crash",
+    "cs_prologue_tree_crash",
+    "eject_auto",
+    "ped_wade_snow",
+    "scr_prol_ped_slush",
+    "veh_exhaust_car",
+    "wheel_burnout_snow",
+    "wheel_fric_snow_loose"
+  ],
+  "cut_rcbarry1": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_smoke",
+    "cs_cig_smoke_inhale",
+    "cs_doobie_smoke",
+    "cs_mich1_lighter_flame",
+    "cs_mich1_lighter_sparks"
+  ],
+  "cut_rcbarry2": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_smoke"
+  ],
+  "cut_rcdale1": [
+    "cs_camera_flash",
+    "cs_rcdale1_bourbon_pour"
+  ],
+  "cut_rcepsilon": [
+    "cs_rcepsilon_cola_can",
+    "liquid_splash_paint",
+    "liquid_spray_paint"
+  ],
+  "cut_rcnigel2": [
+    "cs_camera_flash",
+    "veh_panel_shut_car"
+  ],
+  "cut_rcpaparazzo1": [
+    "cs_rcpap1_camera",
+    "cs_rcpap3_litter",
+    "cs_rcpap3_makeup"
+  ],
+  "cut_sb": [
+    "cut_sb_lsia_champagne_pour",
+    "cut_sb_lsia_wheel_skid"
+  ],
+  "cut_sec": [
+    "cut_sec_air_freshener_spray",
+    "cut_sec_beer_bottle",
+    "cut_sec_blood_pool",
+    "cut_sec_bul_metal_impact",
+    "cut_sec_car_disturb_dust",
+    "cut_sec_chop_bite",
+    "cut_sec_chop_weed_drool",
+    "cut_sec_cig_lighter_flame",
+    "cut_sec_cig_lighter_sparks",
+    "cut_sec_cig_weed_smoke",
+    "cut_sec_cig_weed_smoke_exhale",
+    "cut_sec_eject_pistol",
+    "cut_sec_golf_grass_drop",
+    "cut_sec_golf_strike",
+    "cut_sec_golfcart_wheel_debris",
+    "cut_sec_golfclub_blood_drips",
+    "cut_sec_golfclub_break",
+    "cut_sec_golfclub_impact_blood",
+    "cut_sec_helicopter_damage",
+    "cut_sec_helicopter_downwash",
+    "cut_sec_helicopter_impact",
+    "cut_sec_muz_pistol",
+    "cut_sec_veh_exhaust_car",
+    "cut_sec_veh_exhaust_truck",
+    "cut_sec_veh_tire_smoke",
+    "cut_sec_weed_van_smoke",
+    "cut_sec_weed_van_smoke_haze",
+    "cut_sec_window_cutting"
+  ],
+  "cut_sil": [
+    "cs_xm_cig_exhale_mouth",
+    "cs_xm_cig_smoke",
+    "cs_xm_lighter_flame",
+    "cs_xm_lighter_sparks",
+    "cs_xm_pred_cloak_full",
+    "cs_xm_pred_cloak_startup",
+    "cs_xm_pred_minigun_muz_flash"
+  ],
+  "cut_silj": [
+    "bullet_tracer_xm_thruster_mg",
+    "cs_xm_eject_pistol",
+    "cs_xm_muz_pistol",
+    "cs_xm_prop_stromberg",
+    "cs_xm_strom_underwater_trail",
+    "muz_xm_thruster_mg",
+    "veh_thruster_jet",
+    "veh_xm_thruster_afterburner"
+  ],
+  "cut_solomon1": [
+    "cs_sol2_coffee_steam",
+    "muz_pistol",
+    "ped_foot_dusty",
+    "scr_sol1_plane_smoke"
+  ],
+  "cut_solomon3b": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_sol3b_camera",
+    "cs_sol3b_tarmac_exp"
+  ],
+  "cut_solomon5": [
+    "cs_sol5_blood_head_shot",
+    "muz_pistol"
+  ],
+  "cut_sum24": [
+    "cs_sum24_bty6_gate_impact",
+    "cs_sum24_bty6_wheel_smoke",
+    "cs_sum24_office_plant_dirt"
+  ],
+  "cut_sv": [
+    "cs_sv_cbr_litter",
+    "cs_sv_cbr_train_sparks",
+    "cs_sv_cbr_tyre_smoke",
+    "cs_sv_rob_ship_drips",
+    "cs_sv_rob_sub_drips",
+    "cs_sv_rob_sub_nose_sand_spray",
+    "cs_sv_rob_sub_nose_splashes",
+    "cs_sv_rr_door_gas",
+    "cs_sv_rr_heli_downwash",
+    "cs_sv_rr_heli_exhaust",
+    "cs_sv_yard_car_exhaust",
+    "cs_sv_yard_car_wheel_smoke",
+    "cs_sv_yard_trip_dust_chest",
+    "cs_sv_yard_trip_dust_foot",
+    "cs_sv_yard_trip_dust_knee"
+  ],
+  "cut_test": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "cs_mich1_lighter_flame",
+    "cs_mich1_lighter_sparks",
+    "cs_pls_head_bang_blood",
+    "exp_hydrant",
+    "exp_hydrant_decals_sp",
+    "fire_petroltank_car"
+  ],
+  "cut_tn": [
+    "cut_tn_meet_burnout_smoke",
+    "cut_tn_punch_blood_drips",
+    "cut_tn_punch_mouth_blood",
+    "cut_tn_shop_drug_dust",
+    "cut_tn_swat_van_skid_smoke"
+  ],
+  "cut_trevor1": [
+    "cs_head_kick_blood",
+    "cs_meth_pipe_smoke",
+    "cs_trev1_ankle_water",
+    "cs_trev1_beer_bottle",
+    "cs_trev1_blood_pool",
+    "cs_trev1_crackpipe_smoke",
+    "cs_trev1_dusty_kick",
+    "cs_trev1_lighter_flame",
+    "cs_trev1_lighter_sparks",
+    "cs_trev1_ped_water_splash",
+    "cs_trev1_trailer_wash",
+    "cs_trev1_wheel_fric_sand_Bike",
+    "cs_trev1_wheel_spin_sand",
+    "ped_breath_water",
+    "ped_underwater_trails",
+    "ped_water_drips",
+    "veh_exhaust_car",
+    "veh_exhaust_hidden",
+    "veh_exhaust_truck",
+    "water_splash_ped",
+    "water_splash_ped_in",
+    "water_splash_ped_out",
+    "water_splash_ped_wade",
+    "wheel_fric_dirt_dry"
+  ],
+  "cut_trevor2": [
+    "muz_assault_rifle",
+    "ped_foot_dusty"
+  ],
+  "cut_trevor3": [
+    "cs_trev3_dusty_body",
+    "cs_trev3_soap_suds",
+    "cs_trev5_door_splinter",
+    "cs_trev5_water_pour"
+  ],
+  "cut_trevor4": [
+    "cs_trev4_blood_splatter"
+  ],
+  "cut_trevor5": [
+    "cs_trev5_door_splinter"
+  ],
+  "cut_vw_casino_doors": [
+    "cs_vw_casino_door_smash",
+    "cs_vw_vehicle_smoke"
+  ],
+  "cut_xm24": [
+    "cs_xm24_cig_smoke",
+    "cs_xm24_cig_smoke_exhale",
+    "cs_xm24_crate_impact",
+    "cs_xm24_titan_console_sparks",
+    "cs_xm24_titan_engine_burst",
+    "cs_xm24_titan_engine_trail",
+    "cs_xm24_titan_exp_cannon",
+    "cs_xm24_titan_exp2_cannon",
+    "cs_xm24_titan_muz_cannon",
+    "cs_xm24_titan_pedestal_sparks",
+    "cs_xm24_titan_smoke_linger",
+    "cs_xm24_titan_turbulance_dust",
+    "cs_xm24_titan_window_smash",
+    "cs_xm24_titan_wreck_fire",
+    "scr_hr_mfh_expdrop_exp_trail_sp",
+    "sp_cs_xm24_titan_console_sparks"
+  ],
+  "cut_xm3": [
+    "cut_xm3_beer_splash",
+    "cut_xm3_bike_wheel_debris",
+    "cut_xm3_coke_dust",
+    "cut_xm3_crate_break_splinters",
+    "cut_xm3_door_explosion",
+    "cut_xm3_eject_pistol",
+    "cut_xm3_exhale_smoke",
+    "cut_xm3_glass_break",
+    "cut_xm3_impact_dust",
+    "cut_xm3_journey_wheel_dirt",
+    "cut_xm3_mule_wheel_dust",
+    "cut_xm3_muz_pistol",
+    "cut_xm3_muz_pistol_flash",
+    "cut_xm3_muz_pistol_flash_fill",
+    "cut_xm3_muz_pistol_flash_low",
+    "cut_xm3_muz_pistol_flash_low_fill",
+    "cut_xm3_plane_crash_left",
+    "cut_xm3_plane_crash_right",
+    "cut_xm3_plane_debris_trail",
+    "cut_xm3_plane_disturb_dust",
+    "cut_xm3_plane_exhaust",
+    "cut_xm3_plane_impacts",
+    "cut_xm3_plane_smoulder",
+    "cut_xm3_plane_sparks",
+    "cut_xm3_plane_wheel_skid",
+    "cut_xm3_rpg_explosion",
+    "cut_xm3_rpg_explosion_debris",
+    "cut_xm3_rpg_muzzle",
+    "cut_xm3_rpg_trail_smoke",
+    "cut_xm3_vehicle_exhaust"
+  ],
+  "des_apartment_block": [
+    "ent_ray_heli_aprtmnt_trail"
+  ],
+  "des_bigjobdrill": [
+    "ent_ray_big_drill_cloud",
+    "ent_ray_big_drill_ground_dust",
+    "ent_ray_big_drill_ibt",
+    "ent_ray_big_drill_loop",
+    "ent_ray_big_drill_sparks",
+    "ent_ray_big_drill_start",
+    "ent_ray_big_drill_start_sparks",
+    "ent_ray_big_drill_trail",
+    "sp_fbi_collapse_debris"
+  ],
+  "des_bi_plane": [
+    "ent_ray_ex1_plane_break_L",
+    "ent_ray_ex1_plane_break_R",
+    "ent_ray_ex1_plane_spark_L",
+    "ent_ray_ex1_plane_spark_R"
+  ],
+  "des_car_show_room": [
+    "ent_ray_arm3_paper",
+    "ent_ray_arm3_sparking_wires",
+    "ent_ray_arm3_window_break",
+    "ent_ray_arm3_wood_splinter"
+  ],
+  "des_farmhouse": [
+    "ent_ray_ch2_farm_CS_lights",
+    "ent_ray_ch2_farm_dust_terrain",
+    "ent_ray_ch2_farm_exp",
+    "ent_ray_ch2_farm_exp_porch_window",
+    "ent_ray_ch2_farm_fire_light"
+  ],
+  "des_fibstairs": [
+    "ent_ray_fbi5a_stairs_dust_fill",
+    "ent_ray_fbi5a_stairs_fragment",
+    "ent_ray_fbi5a_stairs_silt_fall"
+  ],
+  "des_fib_ceiling": [
+    "ent_ray_fbi5a_ceiling_cable",
+    "ent_ray_fbi5a_ceiling_debris",
+    "ent_ray_fbi5a_ceiling_impacts",
+    "ent_ray_fbi5a_ceiling_sprinkler",
+    "ent_ray_fbi5a_sparking_wires",
+    "sp_agency_sparking_wires"
+  ],
+  "des_fib_door": [
+    "ent_ray_fbi_door_exp"
+  ],
+  "des_fib_floor": [
+    "ent_ray_fbi5a_ramp_dust_impact",
+    "ent_ray_fbi5a_ramp_explosion",
+    "ent_ray_fbi5a_ramp_fragment",
+    "ent_ray_fbi5a_ramp_metal_imp"
+  ],
+  "des_fib_glass": [
+    "ent_ray_fbi2_glass_drop",
+    "ent_ray_fbi2_window_break"
+  ],
+  "des_finale": [
+    "ent_ray_finale1_liquid_nitro",
+    "ent_ray_finale1_liquid_petrol"
+  ],
+  "des_french_doors": [
+    "ent_ray_fam3_glass_break"
+  ],
+  "des_fruit_bowl": [
+    "ent_ray_fam4_fruit_bowl"
+  ],
+  "des_gas_station": [
+    "ent_ray_paleto_gas_debris_trails",
+    "ent_ray_paleto_gas_dust_terrain",
+    "ent_ray_paleto_gas_exp_tiles",
+    "ent_ray_paleto_gas_explosion",
+    "ent_ray_paleto_gas_plume",
+    "ent_ray_paleto_gas_plume_L",
+    "ent_ray_paleto_gas_window_break"
+  ],
+  "des_hospitaldoors": [
+    "ent_ray_hospital_glass"
+  ],
+  "des_methtrailer": [
+    "ent_ray_meth_dust_terrain",
+    "ent_ray_meth_explosion"
+  ],
+  "des_prologue_door": [
+    "ent_ray_pro_door_ceiling_debris",
+    "ent_ray_pro_door_embers",
+    "ent_ray_pro_door_fireball_light",
+    "ent_ray_pro_door_light_glass",
+    "ent_ray_pro_door_sparks",
+    "ent_ray_pro_door_sprinkler",
+    "ent_ray_pro_door_steam",
+    "ent_ray_pro1_water_splash_spawn",
+    "sp_prologue_debris"
+  ],
+  "des_pro_tree_crash": [
+    "ent_ray_pro_tree_crash",
+    "ent_ray_pro_tree_crash_snow",
+    "ent_ray_pro_tree_crash_snow_slush"
+  ],
+  "des_scaffolding": [
+    "ent_ray_fam3_dust_motes",
+    "ent_ray_scaf_dust_clouds",
+    "ent_ray_scaf_explosion",
+    "ent_ray_scaf_fire_trails",
+    "ent_ray_scaf_spark_bursts",
+    "ent_ray_scaf_wood_frags",
+    "exp_grd_petrol_pump_spawn"
+  ],
+  "des_shipwreck": [
+    "ent_ray_shipwreck_container_trail",
+    "ent_ray_shipwreck_exp",
+    "ent_ray_shipwreck_exp_underwater",
+    "ent_ray_shipwreck_exp_window",
+    "ent_ray_shipwreck_fire_window",
+    "ent_ray_shipwreck_pipe_impacts",
+    "ent_ray_shipwreck_smoke_plume",
+    "ent_ray_shipwreck_sparks",
+    "ent_ray_shipwreck_splash_L",
+    "ent_ray_shipwreck_splash_S",
+    "ent_ray_shipwreck_water_churn",
+    "ent_ray_shipwreck_wood_debris"
+  ],
+  "des_smash2": [
+    "ent_ray_fbi4_sparks_line",
+    "ent_ray_fbi4_sparks_point",
+    "ent_ray_fbi4_terrain_dust",
+    "ent_ray_fbi4_truck_slam",
+    "ent_ray_fbi4_wall_debris",
+    "ent_ray_fbi4_wall_dust",
+    "ent_ray_fbi4_wall_dust_mote"
+  ],
+  "des_stilthouse": [
+    "ent_ray_fam3_concrete_frags",
+    "ent_ray_fam3_creaking_dust",
+    "ent_ray_fam3_deck_fracture",
+    "ent_ray_fam3_dust_cloud",
+    "ent_ray_fam3_dust_linger",
+    "ent_ray_fam3_dust_trails",
+    "ent_ray_fam3_falling_leaves",
+    "ent_ray_fam3_terrain_dust",
+    "ent_ray_fam3_wall_glass",
+    "ent_ray_fam3_windows",
+    "ent_ray_fam3_wood_frags"
+  ],
+  "des_tanker_crash": [
+    "ent_ray_tanker_exp",
+    "ent_ray_tanker_exp_sp",
+    "ent_ray_tanker_exp_spawn",
+    "exp_grd_petrol_pump_spawn",
+    "sp_fire_trail_tanker_exp"
+  ],
+  "des_trailerpark": [
+    "ent_ray_trailerpark_dust_terrain",
+    "ent_ray_trailerpark_explosion_L",
+    "ent_ray_trailerpark_fires",
+    "ent_ray_trailerpark_window"
+  ],
+  "des_train_crash": [
+    "ent_ray_meth_dust_settle",
+    "ent_ray_train_debris",
+    "ent_ray_train_debris_splash",
+    "ent_ray_train_debris_splash_spawn",
+    "ent_ray_train_debris_water_splash",
+    "ent_ray_train_debris2",
+    "ent_ray_train_dust_silt",
+    "ent_ray_train_falling_debris",
+    "ent_ray_train_glass",
+    "ent_ray_train_impact",
+    "ent_ray_train_smoke",
+    "ent_ray_train_sparks",
+    "ent_ray_train_sparks_trails",
+    "ent_ray_train_splash",
+    "ent_ray_train_water_wash",
+    "scr_trev1_crash_dust"
+  ],
+  "des_tv_smash": [
+    "ent_ray_fam2_tv_smash",
+    "ent_sht_electrical_box_sp"
+  ],
+  "des_vaultdoor": [
+    "ent_ray_pro_door_steam",
+    "ent_ray_pro1_bolt_sparks",
+    "ent_ray_pro1_ceiling_debris",
+    "ent_ray_pro1_concrete_impacts",
+    "ent_ray_pro1_floating_cash",
+    "ent_ray_pro1_floor_sparks",
+    "ent_ray_pro1_light_glass",
+    "ent_ray_pro1_residual_smoke",
+    "ent_ray_pro1_sparking_wires",
+    "ent_ray_pro1_sprinkler_burst",
+    "ent_ray_pro1_vault_exp2",
+    "ent_ray_pro1_wall_smashed",
+    "ent_ray_pro1_water_splash_spawn"
+  ],
+  "ent_hr_rob_whistle": [
+    "ent_amb_hr_rob_vault_gas_leak"
+  ],
+  "fm_mission_controler": [
+    "scr_drill_debris",
+    "scr_drill_out",
+    "scr_drill_overheat"
+  ],
+  "pat_heist": [
+    "scr_heist_ornate_thermal_burn_patch"
+  ],
+  "proj_indep_firework": [
+    "proj_indep_flare_trail",
+    "scr_indep_firework_air_burst",
+    "scr_indep_firework_grd_burst",
+    "scr_indep_launcher_sparkle_spawn"
+  ],
+  "proj_indep_firework_v2": [
+    "scr_firework_indep_burst_rwb",
+    "scr_firework_indep_repeat_burst_rwb",
+    "scr_firework_indep_ring_burst_rwb",
+    "scr_firework_indep_spiral_burst_rwb",
+    "scr_xmas_firework_burst_fizzle",
+    "scr_xmas_firework_sparkle_spawn"
+  ],
+  "proj_xmas_firework": [
+    "scr_firework_xmas_burst_rgw",
+    "scr_firework_xmas_repeat_burst_rgw",
+    "scr_firework_xmas_ring_burst_rgw",
+    "scr_firework_xmas_spiral_burst_rgw",
+    "scr_xmas_firework_sparkle_spawn"
+  ],
+  "proj_xmas_snowball": [
+    "exp_air_snowball",
+    "exp_grd_snowball",
+    "proj_snowball_fuse",
+    "proj_snowball_trail"
+  ],
+  "scr_adversary": [
+    "scr_emp_prop_light"
+  ],
+  "scr_agencyheist": [
+    "env_smoke_fbi_stairs",
+    "scr_agency_atrium_glass",
+    "scr_agency3a_door_hvy_stat",
+    "scr_agency3a_door_hvy_trig",
+    "scr_env_agency3a_arrive_deb",
+    "scr_fbi_build_exp_spawn",
+    "scr_fbi_dd_breach_smoke",
+    "scr_fbi_exp_building",
+    "scr_fbi_ext_blaze",
+    "scr_fbi_ext_rooftop",
+    "scr_fbi_falling_debris",
+    "scr_fbi_mop_drips",
+    "scr_fbi_mop_squeeze",
+    "scr_fbi_shaft_falling_debris",
+    "sp_fire_trail"
+  ],
+  "scr_agencyheistb": [
+    "ent_amb_fbi_live_wires",
+    "proj_grenade_trail",
+    "scr_agency_atrium_glass",
+    "scr_agency_atrium_silt",
+    "scr_agency_door_haze",
+    "scr_agency_heli_slide_dust",
+    "scr_agency3b_blding_smoke",
+    "scr_agency3b_elec_box",
+    "scr_agency3b_heli_exp_trail",
+    "scr_agency3b_heli_expl",
+    "scr_agency3b_heli_spawn",
+    "scr_agency3b_linger_smoke",
+    "scr_agency3b_proj_rpg_trail",
+    "scr_agency3b_shot_chopper",
+    "scr_agency3b_wood_splinter",
+    "scr_env_agency3b_smoke",
+    "scr_fbi5b_fragment",
+    "scr_fbi5b_silt_fall",
+    "sp_ent_sparking_wires",
+    "sp_fbi_collapse_debris"
+  ],
+  "scr_amb_chop": [
+    "ent_anim_dog_peeing",
+    "ent_anim_dog_poo",
+    "liquid_splash_pee"
+  ],
+  "scr_apartment_mp": [
+    "exp_yacht_defence_plane",
+    "muz_yacht_defence",
+    "proj_yacht_defence_trail",
+    "scr_apa_jacuzzi_drips",
+    "scr_apa_jacuzzi_steam",
+    "scr_apa_jacuzzi_steam_sp",
+    "scr_apa_jacuzzi_wade",
+    "scr_finders_flare",
+    "scr_finders_package_flare"
+  ],
+  "scr_armenian1": [
+    "cs_water_boat_Jetmax_bow",
+    "cs_water_boat_prop",
+    "scr_arm1_wheel_skid"
+  ],
+  "scr_armenian2": [],
+  "scr_armenian3": [
+    "ent_anim_leaf_blower"
+  ],
+  "scr_ar_planes": [
+    "scr_ar_trail_smoke",
+    "scr_ar_trail_smoke_slow"
+  ],
+  "scr_as_target": [
+    "scr_as_target_shot_extra_small",
+    "scr_as_target_shot_large",
+    "scr_as_target_shot_medium",
+    "scr_as_target_shot_small"
+  ],
+  "scr_as_trans": [
+    "scr_as_trans_smoke"
+  ],
+  "scr_as_trap": [
+    "scr_as_trap_zone_circle",
+    "scr_as_trap_zone_rectangle"
+  ],
+  "scr_barbershop": [
+    "scr_barbers_haircut"
+  ],
+  "scr_ba_bb": [
+    "scr_ba_bb_flare",
+    "scr_ba_bb_leaflet_drop",
+    "scr_ba_bb_package_flare",
+    "scr_ba_bb_plane_smoke_trail"
+  ],
+  "scr_ba_bomb": [
+    "scr_ba_bomb_destroy"
+  ],
+  "scr_ba_club": [
+    "scr_ba_club_champagne_spray",
+    "scr_ba_club_drink_pour",
+    "scr_ba_club_drink_pour_splash",
+    "scr_ba_club_smoke",
+    "scr_ba_club_smoke_machine"
+  ],
+  "scr_bh": [
+    "scr_bh_amb_electric_gate",
+    "scr_bh_amb_fusebox_sparks",
+    "scr_bh_ceo_hand_blood",
+    "scr_bh_ceo_morgue_mist",
+    "scr_bh_int_fusebox_sparks",
+    "sp_bh_amb_electric_gate_sparks"
+  ],
+  "scr_bh_hal": [
+    "scr_bh_hal_poison_gas",
+    "scr_bh_hal_zom_exp_body",
+    "scr_bh_hal_zom_exp_explosion",
+    "scr_bh_hal_zom_fire_body",
+    "scr_bh_hal_zom_fire_limb",
+    "scr_bh_hal_zom_plg_body",
+    "scr_bh_hal_zom_plg_staff",
+    "scr_bh_hal_zom_plg_zone",
+    "scr_bh_hal_zom_spawn",
+    "scr_bh_hal_zom_spawn_slow"
+  ],
+  "scr_bh_mp": [
+    "scr_bh_mp_terminal_exp",
+    "scr_bh_mp_terminal_sparks"
+  ],
+  "scr_bigscore": [
+    "liquid_splash_pee",
+    "scr_bigscore_peeing",
+    "scr_bigscore_ramp_sparks",
+    "scr_bigscore_rpg_trail",
+    "scr_bigscore_tyre_spiked"
+  ],
+  "scr_bike_adversary": [
+    "scr_adversary_foot_flames",
+    "scr_adversary_gunsmith_weap_change",
+    "scr_adversary_gunsmith_weap_smoke",
+    "scr_adversary_judgement_ash",
+    "scr_adversary_judgement_lens_dirt",
+    "scr_adversary_ped_glow",
+    "scr_adversary_ped_light_bad",
+    "scr_adversary_ped_light_good",
+    "scr_adversary_slipstream",
+    "scr_adversary_slipstream_formation",
+    "scr_adversary_trail_lightning",
+    "scr_adversary_weap_glow",
+    "scr_adversary_weap_smoke",
+    "scr_adversary_wheel_lightning"
+  ],
+  "scr_bike_business": [
+    "scr_bike_cfid_camera_flash",
+    "scr_bike_coc_cocaine_box_pour",
+    "scr_bike_coc_cocaine_scoop_pour",
+    "scr_bike_meth_meth_scoop_pour",
+    "scr_bike_meth_propylene_pour",
+    "scr_bike_meth_sodium_pour",
+    "scr_bike_spraybottle_spray",
+    "scr_bike_weed_fog",
+    "scr_bike_weed_fog_upgrade"
+  ],
+  "scr_bike_contact": [
+    "scr_contact_sniper_kill"
+  ],
+  "scr_bike_contraband": [
+    "scr_bike_truck_weed_smoke",
+    "scr_bike_truck_weed_smoke_cabin"
+  ],
+  "scr_biolab_heist": [
+    "scr_heist_biolab_flare",
+    "scr_heist_biolab_flare_underwater"
+  ],
+  "scr_carrier_heist": [
+    "scr_heist_carrier_elec_fire",
+    "scr_heist_carrier_elec_fire_sp"
+  ],
+  "scr_carsteal3": [
+    "scr_carsteal3_eject",
+    "scr_carsteal3_tyre_spikes",
+    "scr_carsteal4_tyre_spiked"
+  ],
+  "scr_carsteal4": [
+    "scr_carsteal4_trailer_scrape",
+    "scr_carsteal4_tyre_spikes",
+    "scr_carsteal4_wheel_burnout",
+    "scr_carsteal5_car_muzzle_flash",
+    "scr_carsteal5_tyre_spiked"
+  ],
+  "scr_carwash": [
+    "ent_amb_car_wash",
+    "ent_amb_car_wash_jet",
+    "ent_amb_car_wash_jet_soap",
+    "ent_amb_car_wash_steam"
+  ],
+  "scr_chinese2": [
+    "cs_dry_ice_freezer_door",
+    "scr_chin1_freezer_gust",
+    "scr_petrol_trail_fire"
+  ],
+  "scr_ch_finale": [
+    "scr_ch_cockroach_bag_drop",
+    "scr_ch_finale_bug_infestation",
+    "scr_ch_finale_camera_stun",
+    "scr_ch_finale_drill_out",
+    "scr_ch_finale_drill_overheat",
+    "scr_ch_finale_drill_sparks",
+    "scr_ch_finale_drill_sparks_nodecal",
+    "scr_ch_finale_fusebox_overload",
+    "scr_ch_finale_hit_art",
+    "scr_ch_finale_hit_diamond",
+    "scr_ch_finale_hit_gold",
+    "scr_ch_finale_laser",
+    "scr_ch_finale_laser_sparks",
+    "scr_ch_finale_poison_gas",
+    "scr_ch_finale_thermal_burn",
+    "scr_ch_finale_vault_haze",
+    "scr_ch_hl_flare",
+    "scr_ch_hl_package_flare"
+  ],
+  "scr_cncpolicestationbustout": [
+    "scr_alarm_damage_sparks"
+  ],
+  "scr_director_mode": [
+    "ent_anim_cig_exhale_mth_car",
+    "ent_anim_cig_exhale_nse_car",
+    "ent_anim_cig_smoke_car"
+  ],
+  "scr_dlc_independence": [
+    "proj_indep_flare_trail"
+  ],
+  "scr_exec_ambient_fm": [
+    "scr_ped_foot_banknotes"
+  ],
+  "scr_exile1": [
+    "cs_ex1_cargo_fire",
+    "cs_ex1_sparking_wires_sm",
+    "ent_amb_sparking_wires_sm_sp",
+    "scr_ex1_cargo_debris",
+    "scr_ex1_cargo_engine_burst",
+    "scr_ex1_cargo_engine_trail",
+    "scr_ex1_cargo_smoke",
+    "scr_ex1_dust_impact",
+    "scr_ex1_dust_settle",
+    "scr_ex1_heatseeker",
+    "scr_ex1_moving_cloud",
+    "scr_ex1_plane_exp",
+    "scr_ex1_plane_exp_sp",
+    "scr_ex1_water_exp_sp"
+  ],
+  "scr_exile2": [
+    "scr_ex2_car_impact",
+    "scr_ex2_car_slide",
+    "scr_ex2_chop_trail",
+    "scr_ex2_jeep_engine_fire",
+    "scr_ex2_rpg_trail"
+  ],
+  "scr_exile3": [
+    "cs_fam5_michael_pool_splash",
+    "cs_fam5_water_splash_ped_in",
+    "cs_fam5_water_splash_ped_out",
+    "cs_fam5_water_splash_ped_wade",
+    "ent_ray_train_debris_splash",
+    "ent_ray_train_debris_splash_spawn",
+    "ent_ray_train_falling_debris",
+    "ent_ray_train_splash",
+    "scr_ex3_container_smoke",
+    "scr_ex3_engine_fire",
+    "scr_ex3_water_dinghy_wash",
+    "water_splash_ped"
+  ],
+  "scr_family1": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "scr_fam1_blood_headshot",
+    "scr_fam1_veh_smoke"
+  ],
+  "scr_family3": [
+    "ent_ray_fam3_dust_settle",
+    "scr_fam3_wheelspin_dirt"
+  ],
+  "scr_family4": [
+    "scr_fam4_trailer_sparks",
+    "scr_fam4_truck_vent"
+  ],
+  "scr_family5": [
+    "scr_fam_bong_smoke",
+    "scr_fam_door_smoke",
+    "scr_puke_in_car",
+    "scr_trev_puke",
+    "scr_trev_puke_splash_grd"
+  ],
+  "scr_family6": [
+    "cs_fam6_hair_snip"
+  ],
+  "scr_familyscenem": [
+    "cs_mich1_lighter_flame",
+    "cs_mich1_lighter_sparks",
+    "liquid_splash_water",
+    "scr_fam_bong_smoke",
+    "scr_fam_door_smoke",
+    "scr_fam_moonshine_pour",
+    "scr_meth_pipe_smoke",
+    "scr_pts_digging",
+    "scr_pts_flush",
+    "scr_pts_footsplash",
+    "scr_pts_gardner_watering",
+    "scr_pts_headsplash",
+    "scr_pts_headsplash_trev",
+    "scr_pts_vomit_water",
+    "scr_puke_in_car",
+    "scr_tracey_puke",
+    "scr_trev_amb_puke",
+    "scr_trev_puke",
+    "scr_trev_puke_splash_grd"
+  ],
+  "scr_fbi1": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "scr_fbi_autopsy_blood",
+    "scr_fbi1_litter"
+  ],
+  "scr_fbi3": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke",
+    "scr_fbi3_blood_extraction",
+    "scr_fbi3_blood_mouth",
+    "scr_fbi3_blood_throwaway",
+    "scr_fbi3_dirty_water_pour",
+    "scr_fbi3_dirty_wtr_splash_sp",
+    "scr_fbi3_elec_smoulder",
+    "scr_fbi3_elec_sparks"
+  ],
+  "scr_fbi4": [
+    "exp_fbi4_doors",
+    "exp_fbi4_doors_post",
+    "scr_fbi4_trucks_crash"
+  ],
+  "scr_fbi5a": [
+    "bul_carmetal",
+    "muz_assault_rifle",
+    "ped_talk_water",
+    "scr_bio_cutter_flame",
+    "scr_bio_cutter_nozzle",
+    "scr_bio_flare",
+    "scr_bio_grille_break",
+    "scr_bio_grille_cutting",
+    "scr_bio_grille_singed",
+    "scr_fbi5_dry_ice",
+    "scr_fbi5_ped_water_splash",
+    "scr_fbi5a_flare",
+    "scr_tunnel_vent_bubbles",
+    "water_splash_ped_bubbles"
+  ],
+  "scr_fbi5b": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke"
+  ],
+  "scr_finale1": [
+    "muz_pistol",
+    "scr_fin_env_trev_sky",
+    "scr_fin_fire_petrol_trev",
+    "scr_fin_trev_car_impact"
+  ],
+  "scr_finale2": [
+    "scr_finale2_blood_entry"
+  ],
+  "scr_fm_mp_missioncreator": [
+    "ent_amb_shower",
+    "ent_amb_shower_steam",
+    "ent_anim_cig_exhale_mth",
+    "ent_anim_cig_exhale_mth_car",
+    "ent_anim_cig_exhale_nse",
+    "ent_anim_cig_exhale_nse_car",
+    "ent_anim_cig_smoke",
+    "ent_anim_cig_smoke_car",
+    "scr_crate_drop_beacon",
+    "scr_mp_drug_dst",
+    "scr_mp_dust_cloud",
+    "scr_mp_elec_dst",
+    "scr_mp_generic_dst",
+    "scr_sh_bong_smoke",
+    "scr_sh_cig_exhale_mouth",
+    "scr_sh_cig_exhale_nose",
+    "scr_sh_cig_smoke",
+    "scr_sh_lighter_flame",
+    "scr_sh_lighter_sparks"
+  ],
+  "scr_franklin0": [
+    "scr_franklin0_chop_trail"
+  ],
+  "scr_gr_bunk": [
+    "scr_gr_bunk_clean_blow_debris",
+    "scr_gr_bunk_clean_debris",
+    "scr_gr_bunk_drill_smoke",
+    "scr_gr_bunk_drill_spark",
+    "scr_gr_bunk_lathe_metal_shards",
+    "scr_gr_bunk_mill_hose_spray",
+    "scr_gr_bunk_mill_metal_shards"
+  ],
+  "scr_gr_def": [
+    "scr_gr_def_flare",
+    "scr_gr_def_package_flare",
+    "scr_gr_sw_engine_smoke",
+    "scr_gr_warp_in"
+  ],
+  "scr_hr_adv": [
+    "scr_hr_adv_van_smoke"
+  ],
+  "scr_hr_lny_races": [
+    "scr_hr_lny_firework_burst",
+    "scr_hr_lny_firework_burst_buffalo",
+    "scr_hr_lny_firework_burst_cat",
+    "scr_hr_lny_firework_burst_dog",
+    "scr_hr_lny_firework_burst_dragon",
+    "scr_hr_lny_firework_burst_elephant",
+    "scr_hr_lny_firework_burst_face",
+    "scr_hr_lny_firework_burst_heart",
+    "scr_hr_lny_firework_burst_horse",
+    "scr_hr_lny_firework_burst_large",
+    "scr_hr_lny_firework_burst_monkey",
+    "scr_hr_lny_firework_burst_pig",
+    "scr_hr_lny_firework_burst_rabbit",
+    "scr_hr_lny_firework_burst_rat",
+    "scr_hr_lny_firework_burst_rooster",
+    "scr_hr_lny_firework_burst_sheep",
+    "scr_hr_lny_firework_burst_small",
+    "scr_hr_lny_firework_burst_snake",
+    "scr_hr_lny_firework_burst_star",
+    "scr_hr_lny_firework_burst_tiger",
+    "scr_hr_lny_firework_fountain_tall",
+    "scr_hr_lny_firework_fountain_tall_spawn",
+    "scr_hr_lny_firework_launch",
+    "scr_hr_lny_firework_launch_buffalo",
+    "scr_hr_lny_firework_launch_burst",
+    "scr_hr_lny_firework_launch_burst_large",
+    "scr_hr_lny_firework_launch_burst_small",
+    "scr_hr_lny_firework_launch_cat",
+    "scr_hr_lny_firework_launch_dog",
+    "scr_hr_lny_firework_launch_dragon",
+    "scr_hr_lny_firework_launch_elephant",
+    "scr_hr_lny_firework_launch_horse",
+    "scr_hr_lny_firework_launch_monkey",
+    "scr_hr_lny_firework_launch_pig",
+    "scr_hr_lny_firework_launch_rabbit",
+    "scr_hr_lny_firework_launch_rat",
+    "scr_hr_lny_firework_launch_rooster",
+    "scr_hr_lny_firework_launch_shape_face",
+    "scr_hr_lny_firework_launch_shape_heart",
+    "scr_hr_lny_firework_launch_shape_star",
+    "scr_hr_lny_firework_launch_sheep",
+    "scr_hr_lny_firework_launch_snake",
+    "scr_hr_lny_firework_launch_tiger",
+    "scr_hr_lny_firework_skyline",
+    "sp_hr_lny_firework_launch_trail",
+    "sp_hr_lny_firework_trail"
+  ],
+  "scr_hr_mfh": [
+    "scr_hr_mfh_container_destroy",
+    "scr_hr_mfh_expdrop_exp",
+    "scr_hr_mfh_expdrop_exp_trail_sp",
+    "scr_hr_mfh_gascage_exp",
+    "scr_hr_mfh_hideout_exp",
+    "scr_hr_mfh_missile_exp",
+    "scr_hr_mfh_missile_trail",
+    "scr_hr_mfh_moc_exp",
+    "scr_hr_mfh_plane_crash",
+    "scr_hr_mfh_prop_smoke",
+    "scr_hr_mfh_shark_attack_bite",
+    "scr_hr_mfh_shark_attack_loop",
+    "scr_hr_mfh_shark_attack_release",
+    "scr_hr_mfh_sub_exp"
+  ],
+  "scr_hr_rob_cargo": [
+    "scr_hr_rob_plane_engine_burst",
+    "scr_hr_rob_plane_engine_trail",
+    "scr_hr_rob_plane_water_splash"
+  ],
+  "scr_hr_rob_data": [
+    "scr_hr_rob_emp_charge_exp",
+    "scr_hr_rob_eye_scanner",
+    "scr_hr_rob_handler_smoke"
+  ],
+  "scr_hr_rob_fort": [
+    "scr_hr_rob_kinetic_pulse"
+  ],
+  "scr_hr_rob_pent": [
+    "scr_hr_rob_floor_vent_gas",
+    "scr_hr_rob_tula_engine_smoke"
+  ],
+  "scr_hr_rob_whistle": [
+    "scr_hr_rob_vault_gas_haze",
+    "scr_hr_rob_vault_gas_leak"
+  ],
+  "scr_hunting": [
+    "ent_amb_insect_plane"
+  ],
+  "scr_ie_export": [
+    "scr_ie_export_fire_ring",
+    "scr_ie_export_flare",
+    "scr_ie_export_package_flare"
+  ],
+  "scr_ie_svm_phantom2": [
+    "scr_ie_bul_coc_bag"
+  ],
+  "scr_ie_svm_technical2": [
+    "scr_dst_cocaine"
+  ],
+  "scr_ie_tw": [
+    "scr_impexp_tw_rpg_trail",
+    "scr_impexp_tw_take_zone"
+  ],
+  "scr_ie_vv": [
+    "scr_ie_vv_muzzle_flash",
+    "scr_ie_vv_vehicle_damage"
+  ],
+  "scr_ih_club": [
+    "scr_ih_club_sparkler"
+  ],
+  "scr_ih_col": [
+    "scr_ih_col_poster_spraytag"
+  ],
+  "scr_ih_fin": [
+    "scr_ih_fin_cutter_flame",
+    "scr_ih_fin_cutter_nozzle",
+    "scr_ih_fin_explosive_charge",
+    "scr_ih_fin_glass_cutter_cut",
+    "scr_ih_fin_glass_cutter_overheat",
+    "scr_ih_fin_grille_break",
+    "scr_ih_fin_grille_cutting",
+    "scr_ih_fin_grille_singed",
+    "scr_ih_fin_torch_flame",
+    "scr_ih_fin_torch_lock_break",
+    "scr_ih_fin_torch_lock_cutting",
+    "scr_ih_fin_torch_lock_singed",
+    "scr_ih_fin_torch_nozzle"
+  ],
+  "scr_ih_sub": [
+    "scr_ih_sub_missile_launch",
+    "scr_ih_sub_pool_door",
+    "scr_ih_sub_propeller",
+    "scr_ih_sub_surface",
+    "scr_ih_sub_water_drips"
+  ],
+  "scr_impexp_jug": [
+    "scr_ie_jug_mask_flame",
+    "scr_ie_jug_mask_steam",
+    "scr_impexp_jug_outfit_swap"
+  ],
+  "scr_impexp_ploughed": [
+    "scr_impexp_dst_crate"
+  ],
+  "scr_indep_fireworks": [
+    "scr_indep_firework_burst_spawn",
+    "scr_indep_firework_fountain",
+    "scr_indep_firework_shotburst",
+    "scr_indep_firework_sparkle_spawn",
+    "scr_indep_firework_starburst",
+    "scr_indep_firework_trail_spawn",
+    "scr_indep_firework_trailburst",
+    "scr_indep_firework_trailburst_spawn"
+  ],
+  "scr_indep_parachute": [
+    "mp_parachute_smoke_indep"
+  ],
+  "scr_indep_wheelsmoke": [
+    "wheel_burnout_indep",
+    "wheel_fric_hard_Bike_indep",
+    "wheel_fric_hard_indep",
+    "wheel_fric_hard_tank_indep"
+  ],
+  "scr_jewelheist": [
+    "cs_bike_exhaust",
+    "scr_jew_bike_burnout",
+    "scr_jewel_cab_smash",
+    "scr_jewel_fog_volume",
+    "scr_jewel_haze"
+  ],
+  "scr_josh3": [
+    "exp_grd_petrol_pump_spawn",
+    "scr_josh3_exp_debris",
+    "scr_josh3_explosion",
+    "scr_josh3_fires",
+    "scr_josh3_house_smoked",
+    "scr_josh3_light_explosion"
+  ],
+  "scr_lamar1": [
+    "scr_env_agency3b_smoke",
+    "scr_lamar1_door_breach",
+    "scr_lamar1_fire_spread",
+    "scr_lamar1_fire_spread1"
+  ],
+  "scr_lester1a": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_exhale_nose",
+    "cs_cig_smoke"
+  ],
+  "scr_lowrider": [
+    "scr_lowrider_flare"
+  ],
+  "scr_martin1": [
+    "ent_amb_elec_crackle_sp",
+    "scr_sol1_fire_drip",
+    "scr_sol1_fire_spot",
+    "scr_sol1_fire_trail",
+    "scr_sol1_plane_crash_dust",
+    "scr_sol1_plane_elec_crackle",
+    "scr_sol1_plane_engine_fire",
+    "scr_sol1_plane_smoke",
+    "scr_sol1_plane_smoke_loop",
+    "scr_sol1_plane_tail_fire",
+    "scr_sol1_plane_wreck",
+    "scr_sol1_sniper_impact",
+    "sp_scr_sol1_fire_drip_trail"
+  ],
+  "scr_michael2": [
+    "cs_cig_exhale_mouth",
+    "cs_cig_smoke",
+    "scr_abattoir_ped_minced",
+    "scr_abattoir_ped_sliced",
+    "scr_acid_bath_splash",
+    "scr_mich2_blood_stab",
+    "scr_mich2_spark_impact",
+    "scr_mich3_heli_fire",
+    "scr_pts_headsplash"
+  ],
+  "scr_minigamegolf": [
+    "scr_golf_ball_trail",
+    "scr_golf_hit_branches",
+    "scr_golf_landing_bunker",
+    "scr_golf_landing_thick_grass",
+    "scr_golf_landing_water",
+    "scr_golf_strike_bunker",
+    "scr_golf_strike_fairway",
+    "scr_golf_strike_fairway_bad",
+    "scr_golf_strike_thick_grass",
+    "scr_golf_tee_perfect"
+  ],
+  "scr_minigamepilot": [
+    "scr_stuntplane_trail"
+  ],
+  "scr_minigamestuntplane": [
+    "scr_stuntplane_trail"
+  ],
+  "scr_minigametennis": [
+    "scr_tennis_ball_trail"
+  ],
+  "scr_mp_cig": [
+    "ent_anim_cig_exhale_mth",
+    "ent_anim_cig_exhale_mth_car",
+    "ent_anim_cig_exhale_nse",
+    "ent_anim_cig_exhale_nse_car",
+    "ent_anim_cig_smoke",
+    "ent_anim_cig_smoke_car"
+  ],
+  "scr_mp_cig_plane": [
+    "ent_anim_cig_exhale_mth_plane",
+    "ent_anim_cig_exhale_nse_plane",
+    "ent_anim_cig_smoke_plane",
+    "ent_anim_lighter_flame_plane",
+    "ent_anim_lighter_sparks_plane"
+  ],
+  "scr_mp_controller": [
+    "ent_anim_cig_exhale_mth",
+    "ent_anim_cig_exhale_nse",
+    "ent_anim_cig_smoke",
+    "scr_mp_drug_dst",
+    "scr_mp_elec_dst",
+    "scr_mp_generic_dst"
+  ],
+  "scr_mp_creator": [
+    "scr_mp_dust_cloud",
+    "scr_mp_intro_plane_exhaust",
+    "scr_mp_plane_landing_tyre_smoke",
+    "scr_mp_splash"
+  ],
+  "scr_mp_house": [
+    "ent_amb_shower",
+    "ent_amb_shower_steam",
+    "scr_mp_int_fireplace_sml",
+    "scr_sh_bong_smoke",
+    "scr_sh_cig_exhale_mouth",
+    "scr_sh_cig_exhale_nose",
+    "scr_sh_cig_smoke",
+    "scr_sh_lighter_flame",
+    "scr_sh_lighter_sparks"
+  ],
+  "scr_mp_tankbattle": [
+    "exp_grd_tankshell_mp"
+  ],
+  "scr_nicehseheist2c": [],
+  "scr_obfoundrycauldron": [
+    "scr_obfoundry_cauldron_steam"
+  ],
+  "scr_oddjobassassinmulti": [],
+  "scr_oddjobbusassassin": [
+    "scr_ojbusass_bus_impact"
+  ],
+  "scr_oddjobtaxi": [
+    "scr_ojtaxi_hotbox_door",
+    "scr_ojtaxi_hotbox_trail",
+    "scr_ojtaxi_hotbox_window"
+  ],
+  "scr_oddjobtowtruck": [
+    "scr_ojtt_train_sparks"
+  ],
+  "scr_oddjobtraffickingair": [
+    "scr_boat_exp_sp",
+    "scr_boat_trails_sp",
+    "scr_crate_drop_beacon",
+    "scr_crate_drop_flare",
+    "scr_drug_grd_plane_exp",
+    "scr_drug_grd_train_exp",
+    "scr_drug_traffic_flare_L",
+    "scr_mp_intro_plane_exhaust",
+    "scr_ojdg4_boat_exp",
+    "scr_ojdg4_boat_wreck_fire",
+    "scr_ojdg4_train_fire",
+    "scr_ojdg4_water_exp"
+  ],
+  "scr_oddjobtraffickingground": [
+    "scr_drug_traffic_flare",
+    "scr_drug_traffic_flare_L",
+    "scr_ojdg5_barrels",
+    "scr_ojdg5_barrels_smoke"
+  ],
+  "scr_ornate_heist": [
+    "scr_heist_ornate_banknotes",
+    "scr_heist_ornate_metal_drip",
+    "scr_heist_ornate_metal_drip_sp",
+    "scr_heist_ornate_thermal_burn"
+  ],
+  "scr_paintnspray": [
+    "scr_respray_smoke"
+  ],
+  "scr_paletoscore": [
+    "cs_paleto_blowtorch",
+    "cs_rbhs_int_delap_dust",
+    "ent_amb_peeing",
+    "liquid_splash_pee",
+    "scr_alarm_damage_sparks",
+    "scr_paleto_banknotes",
+    "scr_paleto_box_sparks",
+    "scr_paleto_box_spawned",
+    "scr_paleto_doorway_smoke",
+    "scr_paleto_fire_trail",
+    "scr_paleto_heli_plume",
+    "scr_paleto_roof_impact",
+    "scr_trev_puke",
+    "scr_trev_puke_splash_grd"
+  ],
+  "scr_paradise2_trailer": [
+    "scr_para_kick_blood",
+    "scr_prologue_door_blast"
+  ],
+  "scr_pilot_school_mp": [
+    "scr_veh_plane_gen_damage"
+  ],
+  "scr_playerlamgraff": [
+    "scr_lamgraff_paint_spray"
+  ],
+  "scr_player_timetable_scene": [
+    "ent_dst_pineapple",
+    "scr_pts_digging",
+    "scr_pts_glass_bottle",
+    "scr_pts_guitar_break",
+    "scr_pts_headsplash",
+    "scr_pts_vomit_water"
+  ],
+  "scr_pm_plane_promotion": [
+    "scr_property_leaflet_drop",
+    "scr_stuntplane_trail"
+  ],
+  "scr_portoflsheist": [
+    "scr_bigscore_rpg_trail",
+    "scr_bio_flare",
+    "scr_pls_sub_water_drips"
+  ],
+  "scr_powerplay": [
+    "scr_powerplay_beast_appear",
+    "scr_powerplay_beast_vanish",
+    "sp_powerplay_beast_appear_trails"
+  ],
+  "scr_prison_break_heist_station": [
+    "scr_brk_metal_lock"
+  ],
+  "scr_prologue": [
+    "ent_ray_pro_door_embers",
+    "ent_ray_pro1_vault_exp_lit",
+    "scr_pro_car_steam",
+    "scr_pro_door_snow",
+    "scr_pro_door_splinters",
+    "scr_prologue_ceiling_debris",
+    "scr_prologue_door_blast",
+    "scr_prologue_vault_fog",
+    "scr_prologue_vault_haze",
+    "sp_prologue_debris"
+  ],
+  "scr_rcbarry1": [
+    "scr_alien_beam",
+    "scr_alien_charging",
+    "scr_alien_disintegrate",
+    "scr_alien_impact",
+    "scr_alien_impact_bul",
+    "scr_alien_teleport"
+  ],
+  "scr_rcbarry2": [
+    "eject_clown",
+    "muz_clown",
+    "scr_clown_appears",
+    "scr_clown_bul",
+    "scr_clown_death",
+    "scr_exp_clown",
+    "scr_exp_clown_trails",
+    "sp_clown_appear_trails"
+  ],
+  "scr_rcextreme2": [
+    "scr_extrm2_moving_cloud",
+    "scr_extrm4_water_blood",
+    "scr_extrm4_water_splash",
+    "scr_rcext2_cargo_smoke",
+    "scr_rcext2_ramp_scrape"
+  ],
+  "scr_rcmrsavb2": [],
+  "scr_rcnigel2": [
+    "scr_rcn2_ceiling_debris",
+    "scr_rcn2_debris_trail"
+  ],
+  "scr_rcpaparazzo1": [
+    "scr_mich4_firework_burst_spawn",
+    "scr_mich4_firework_sparkle_spawn",
+    "scr_mich4_firework_starburst",
+    "scr_mich4_firework_trail_spawn",
+    "scr_mich4_firework_trailburst",
+    "scr_mich4_firework_trailburst_spawn",
+    "scr_rcpap1_camera",
+    "scr_rcpap1_champ_burst",
+    "scr_rcpap1_champ_slosh",
+    "scr_rcpap1_smoke_vent"
+  ],
+  "scr_reburials": [
+    "scr_burial_dirt"
+  ],
+  "scr_recartheft": [
+    "scr_wheel_burnout"
+  ],
+  "scr_reconstructionaccident": [
+    "scr_reconstruct_pipe_impact",
+    "scr_reconstruct_pipefall_debris",
+    "scr_sparking_generator",
+    "sp_sparking_generator"
+  ],
+  "scr_recrash_rescue": [
+    "scr_recrash_rescue_fire"
+  ],
+  "scr_safehouse": [
+    "scr_sh_bong_smoke",
+    "scr_sh_cig_exhale_mouth",
+    "scr_sh_cig_exhale_nose",
+    "scr_sh_cig_smoke",
+    "scr_sh_lighter_flame",
+    "scr_sh_lighter_sparks"
+  ],
+  "scr_salvage": [
+    "scr_salvage_flare"
+  ],
+  "scr_sb": [
+    "scr_sb_boat_damage_smoke",
+    "scr_sb_cash_box_flames",
+    "scr_sb_cash_crate_flames",
+    "scr_sb_cash_door_smoke",
+    "scr_sb_cash_pile_flames",
+    "scr_sb_cash_pile4_flames",
+    "scr_sb_cash_stack_flames",
+    "scr_sb_cash_trolley_flames",
+    "scr_sb_cash_trolley2_flames",
+    "scr_sb_cash_trolley3_flames",
+    "scr_sb_cash_warehouse_smoke",
+    "scr_sb_fire_pool_flame",
+    "scr_sb_heli_camera_flash",
+    "scr_sb_par_package_flash_red",
+    "scr_sb_smoke_exploded_tank",
+    "scr_sb_tycoon_banknotes",
+    "scr_sb_tycoon_laundry_disturb",
+    "scr_sb_weed_burn_flames",
+    "scr_sb_weed_burn_flames_1a",
+    "scr_sb_weed_burn_flames_1b",
+    "scr_sb_weed_burn_flames_1c",
+    "scr_sb_weed_burn_smoke_2a",
+    "scr_sb_weed_burn_smoke_2b",
+    "scr_sb_weed_burn_smoke_2c"
+  ],
+  "scr_sb_col": [
+    "scr_sb_col_confetti",
+    "scr_sb_col_confetti_gold"
+  ],
+  "scr_sb_hal": [
+    "scr_sb_hal_ramius_drips_lg",
+    "scr_sb_hal_ramius_drips_med",
+    "scr_sb_hal_ramius_drips_sm",
+    "scr_sb_hal_skel_smoke_body",
+    "scr_sb_hal_zom_deck_float",
+    "scr_sb_hal_zom_dj_base",
+    "scr_sb_hal_zom_dj_death",
+    "scr_sb_hal_zom_dj_mc",
+    "scr_sb_hal_zom_spawn_dirt",
+    "scr_sb_hal_zom_spawn_dirt_slow",
+    "scr_sb_hal_zom_spawn_sand",
+    "scr_sb_hal_zom_spawn_sand_slow",
+    "scr_sb_hal_zom_split_smoke_body",
+    "scr_sb_hal_zom_split_spawn",
+    "scr_sb_hal_zom_tamer_smoke",
+    "sp_sb_hal_zom_dj_death_trail"
+  ],
+  "scr_sec": [
+    "scr_sec_drink_pour",
+    "scr_sec_helicopter_damage",
+    "scr_sec_helicopter_impact",
+    "scr_sec_weed_burn_haze",
+    "scr_sec_weed_burn_smoke_bag",
+    "scr_sec_weed_burn_smoke_large",
+    "scr_sec_weed_burn_smoke_medium",
+    "scr_sec_weed_burn_smoke_small",
+    "scr_sec_weed_burn_van",
+    "scr_sec_weed_lighter_flame",
+    "scr_sec_weed_lighter_sparks",
+    "scr_sec_weed_smoke",
+    "scr_sec_weed_smoke_exhale"
+  ],
+  "scr_sell": [
+    "scr_vehicle_damage_smoke"
+  ],
+  "scr_sm": [
+    "scr_dst_inflatable",
+    "scr_sm_con_ped_light",
+    "scr_sm_hl_flare",
+    "scr_sm_hl_package_flare"
+  ],
+  "scr_sm_counter": [
+    "scr_sm_counter_chaff"
+  ],
+  "scr_sm_trans": [
+    "scr_sm_con_trans",
+    "scr_sm_con_trans_fp",
+    "scr_sm_trans_smoke"
+  ],
+  "scr_solomon3": [
+    "scr_trev4_747_blood_impact",
+    "scr_trev4_747_blood_splash",
+    "scr_trev4_747_engine_damage",
+    "scr_trev4_747_engine_debris",
+    "scr_trev4_747_engine_heathaze",
+    "scr_trev4_747_exhaust_plane_misfire",
+    "scr_trev4_trailer_fire"
+  ],
+  "scr_srr_char": [
+    "scr_srr_char_cargo_fire",
+    "scr_srr_char_cargo_thermal",
+    "scr_srr_char_int_impact_dust_aft",
+    "scr_srr_char_int_impact_dust_fore",
+    "scr_srr_char_int_impact_rpg_dust_aft",
+    "scr_srr_char_int_impact_rpg_dust_fore",
+    "scr_srr_char_int_impact_sparks"
+  ],
+  "scr_srr_hal": [
+    "scr_srr_hal_appear_smoke_boar",
+    "scr_srr_hal_appear_smoke_coyote",
+    "scr_srr_hal_appear_smoke_deer",
+    "scr_srr_hal_appear_smoke_mtlion",
+    "scr_srr_hal_appear_smoke_pug",
+    "scr_srr_hal_ghost_haze",
+    "scr_srr_hal_smoke_boar",
+    "scr_srr_hal_smoke_coyote",
+    "scr_srr_hal_smoke_deer",
+    "scr_srr_hal_smoke_mtlion",
+    "scr_srr_hal_smoke_pug"
+  ],
+  "scr_srr_oper": [
+    "scr_srr_oper_airstrike",
+    "scr_srr_oper_panel_spark_mid",
+    "scr_srr_oper_panel_spark_thin",
+    "scr_srr_oper_panel_spark_wide"
+  ],
+  "scr_srr_resup": [
+    "scr_srr_resup_plane_smoke",
+    "scr_srr_resup_plane_sparks_round",
+    "scr_srr_resup_plane_sparks_wing"
+  ],
+  "scr_srr_sell": [
+    "scr_srr_sell_flare_smoke"
+  ],
+  "scr_srr_vs": [
+    "scr_srr_vs_radar_smoke"
+  ],
+  "scr_sr_adversary": [
+    "scr_sr_dst_cardboard",
+    "scr_sr_lg_take_zone",
+    "scr_sr_lg_weapon_highlight"
+  ],
+  "scr_sr_tr": [
+    "scr_sr_tr_car_change",
+    "scr_sr_tr_player_glow"
+  ],
+  "scr_stunts": [
+    "scr_stunts_bomb_fuse",
+    "scr_stunts_bomb_fuse_sp",
+    "scr_stunts_fire_ring",
+    "scr_stunts_shotburst",
+    "scr_stunts_shotburst_spawn"
+  ],
+  "scr_sum2": [
+    "scr_sum2_club_vomit",
+    "scr_sum2_plane_splash"
+  ],
+  "scr_sum2_agent": [
+    "scr_sum2_agent_gas",
+    "scr_sum2_agent_helicopter_damage",
+    "scr_sum2_agent_room_haze"
+  ],
+  "scr_sum2_hal": [
+    "scr_sum2_hal_bike_flames_blue",
+    "scr_sum2_hal_bike_flames_green",
+    "scr_sum2_hal_bike_flames_greyblack",
+    "scr_sum2_hal_bike_flames_orange",
+    "scr_sum2_hal_bike_wheel_flame_blue",
+    "scr_sum2_hal_bike_wheel_flame_green",
+    "scr_sum2_hal_bike_wheel_flame_greyblack",
+    "scr_sum2_hal_bike_wheel_flame_orange",
+    "scr_sum2_hal_hunted_death",
+    "scr_sum2_hal_hunted_respawn",
+    "scr_sum2_hal_rider_death_blue",
+    "scr_sum2_hal_rider_death_green",
+    "scr_sum2_hal_rider_death_greyblack",
+    "scr_sum2_hal_rider_death_orange",
+    "scr_sum2_hal_rider_head_blue",
+    "scr_sum2_hal_rider_head_green",
+    "scr_sum2_hal_rider_head_greyblack",
+    "scr_sum2_hal_rider_head_orange",
+    "scr_sum2_hal_rider_weak_blue",
+    "scr_sum2_hal_rider_weak_green",
+    "scr_sum2_hal_rider_weak_greyblack",
+    "scr_sum2_hal_rider_weak_orange",
+    "scr_sum2_hal_rider_weapon_blue",
+    "scr_sum2_hal_rider_weapon_green",
+    "scr_sum2_hal_rider_weapon_greyblack",
+    "scr_sum2_hal_rider_weapon_orange",
+    "sp_sum2_hal_rider_death_trail_blue",
+    "sp_sum2_hal_rider_death_trail_green",
+    "sp_sum2_hal_rider_death_trail_greyblack",
+    "sp_sum2_hal_rider_death_trail_orange"
+  ],
+  "scr_sum_gy": [
+    "scr_sum_gy_exp_water_bomb",
+    "scr_sum_gy_felon_fire_back",
+    "scr_sum_gy_felon_fire_front",
+    "scr_sum_gy_gauntlet_fire_back",
+    "scr_sum_gy_gauntlet_fire_front",
+    "scr_sum_gy_mule4_fire_back",
+    "scr_sum_gy_mule4_fire_front",
+    "scr_sum_gy_tempesta_fire_back",
+    "scr_sum_gy_tempesta_fire_front",
+    "scr_sum_gy_water_bomb_trail"
+  ],
+  "scr_sum_ow": [
+    "scr_sum_ow_race_repair_smoke"
+  ],
+  "scr_sum_q3": [
+    "scr_sum_q3_block_destroy",
+    "scr_sum_q3_block_destroy_charge"
+  ],
+  "scr_sv_cbr": [
+    "scr_sv_cbr_glass_smash"
+  ],
+  "scr_sv_drag": [
+    "scr_sv_drag_burnout",
+    "scr_sv_drag_shift_bad",
+    "scr_sv_drag_shift_good",
+    "scr_sv_drag_shift_ok"
+  ],
+  "scr_sv_drift": [
+    "scr_sv_drag_wheel_fric_sand",
+    "scr_sv_drag_wheel_fric_smoke",
+    "scr_sv_drift_cc_persist",
+    "scr_sv_drift_cc_trigger"
+  ],
+  "scr_sv_re": [
+    "scr_sv_re_truck_smoke"
+  ],
+  "scr_sv_rob_cas": [
+    "scr_sv_rob_cas_liq_pour_black",
+    "scr_sv_rob_cas_liq_pour_brown",
+    "scr_sv_rob_cas_liq_pour_green",
+    "scr_sv_rob_cas_liq_splash",
+    "scr_sv_rob_cas_room_gas",
+    "scr_sv_rob_cas_trailer_liq_exp",
+    "scr_sv_rob_cas_vent_gas"
+  ],
+  "scr_sv_rob_pol": [
+    "scr_sv_rob_pol_ac_gas",
+    "scr_sv_rob_pol_room_gas",
+    "scr_sv_rob_pol_vent_gas"
+  ],
+  "scr_sv_rob_ship": [
+    "scr_sv_rob_ship_funnel_smoke"
+  ],
+  "scr_sv_rob_sub": [
+    "scr_sv_rob_sub_blowtorch_flame",
+    "scr_sv_rob_sub_console_sparks",
+    "scr_sv_rob_sub_crane_drips"
+  ],
+  "scr_tn_ia": [
+    "scr_tn_ia_dig_dirt_forward",
+    "scr_tn_ia_dig_dirt_left",
+    "scr_tn_ia_dig_dirt_right"
+  ],
+  "scr_tn_meet": [
+    "scr_tn_meet_cig_exhale_mouth",
+    "scr_tn_meet_cig_exhale_nose",
+    "scr_tn_meet_cig_smoke",
+    "scr_tn_meet_phone_camera_flash",
+    "scr_tn_meet_sandbox_burnout_smoke"
+  ],
+  "scr_tn_phantom": [
+    "scr_tn_phantom_flames"
+  ],
+  "scr_tn_pr": [
+    "scr_tn_pr_cig_smoke"
+  ],
+  "scr_tn_slick": [
+    "scr_tn_exp_mine_slick_nodecal"
+  ],
+  "scr_tn_tr": [
+    "scr_exp_train_brake",
+    "scr_tn_tr_angle_grinder_sparks",
+    "scr_tn_tr_door_explosion",
+    "scr_tn_tr_door_smoke"
+  ],
+  "scr_tplaces": [
+    "scr_tplaces_team_swap",
+    "scr_tplaces_team_swap_nocash"
+  ],
+  "scr_trevor1": [
+    "ent_ray_meth_dust_settle",
+    "scr_trev1_crash_dust",
+    "scr_trev1_trailer_boosh",
+    "scr_trev1_trailer_splash",
+    "scr_trev1_trailer_wires",
+    "scr_trev1_wheelspin_dirt",
+    "sp_ent_sparking_wires"
+  ],
+  "scr_trevor2": [
+    "scr_rotor_blade_blood",
+    "scr_trev2_flare_L",
+    "scr_trev2_heli_exp",
+    "scr_trev2_heli_wreck"
+  ],
+  "scr_trevor3": [
+    "ent_ray_trev3_trailer_light",
+    "exp_grd_vehicle_spawn",
+    "scr_trev3_c4_explosion",
+    "scr_trev3_trailer_expolsion",
+    "scr_trev3_trailer_plume"
+  ],
+  "scr_vw_finale": [
+    "scr_vw_finale_heli_smoke"
+  ],
+  "scr_vw_oil": [
+    "scr_vw_oil_tanker_explosion"
+  ],
+  "scr_weap_bombs": [
+    "scr_bomb_cluster",
+    "scr_bomb_gas",
+    "scr_bomb_standard"
+  ],
+  "scr_xm_aq": [
+    "scr_xm_aq_final_kill_plane",
+    "scr_xm_aq_final_kill_plane_delta",
+    "scr_xm_aq_final_kill_plane_sweep",
+    "scr_xm_aq_final_kill_thruster"
+  ],
+  "scr_xm_farm": [
+    "scr_xm_dst_elec_crackle",
+    "scr_xm_dst_elec_crackle_sp"
+  ],
+  "scr_xm_heat": [
+    "scr_xm_heat_camo"
+  ],
+  "scr_xm_ht": [
+    "scr_xm_ht_flare",
+    "scr_xm_ht_package_flare"
+  ],
+  "scr_xm_orbital": [
+    "scr_xm_orbital_blast"
+  ],
+  "scr_xm_para": [
+    "scr_xm_para_car_smoke"
+  ],
+  "scr_xm_riotvan": [
+    "scr_xm_riotvan_extinguish",
+    "scr_xm_riotvan_fire_back",
+    "scr_xm_riotvan_fire_front"
+  ],
+  "scr_xm_spybomb": [
+    "scr_xm_spybomb_plane_smoke_trail"
+  ],
+  "scr_xm_stealcar": [
+    "scr_xm_stealcar_cargo_exhaust"
+  ],
+  "scr_xm_submarine": [
+    "exp_underwater_mine",
+    "scr_xm_stromberg_scanner",
+    "scr_xm_submarine_explosion",
+    "scr_xm_submarine_surface_explosion",
+    "scr_xm_submarine_surface_splashes"
+  ],
+  "scr_xs_celebration": [
+    "scr_xs_beer_chug",
+    "scr_xs_champagne_spray",
+    "scr_xs_confetti_burst",
+    "scr_xs_money_rain",
+    "scr_xs_money_rain_celeb"
+  ],
+  "scr_xs_dr": [
+    "scr_xs_dr_emp"
+  ],
+  "scr_xs_pits": [
+    "scr_xs_fire_pit",
+    "scr_xs_fire_pit_long",
+    "scr_xs_sf_pit",
+    "scr_xs_sf_pit_long"
+  ],
+  "scr_xs_props": [
+    "scr_xs_ball_explosion",
+    "scr_xs_exp_mine_sf",
+    "scr_xs_guided_missile_trail",
+    "scr_xs_oil_jack_fire"
+  ],
+  "scr_xt_dax": [
+    "scr_xt_dax_cargo_fire",
+    "scr_xt_dax_env_chemical_vapor",
+    "scr_xt_dax_exp_gascan",
+    "scr_xt_dax_tequila_fire",
+    "scr_xt_dax_train_smoke",
+    "scr_xt_dax_train_spill_haze"
+  ],
+  "scr_xt_mugger": [
+    "scr_xt_mug_appear"
+  ],
+  "scr_xt_phone": [
+    "scr_xt_phone_duster_spray",
+    "scr_xt_phone_irrigation_spray",
+    "scr_xt_phone_phos_smoke",
+    "scr_xt_phone_wreck_smoke"
+  ],
+  "scr_xt_src": [
+    "scr_xt_src_barrel_mist",
+    "scr_xt_src_spill_haze",
+    "scr_xt_src_trailer_grain_debris"
+  ],
+  "scr_xt_trip": [
+    "scr_xt_appear_smoke",
+    "scr_xt_trip_bul_impact",
+    "scr_xt_trip_clown_death",
+    "scr_xt_trip_doc_smoke",
+    "scr_xt_trip_eject_gun",
+    "scr_xt_trip_muz_gun",
+    "scr_xt_trip_muz_musket",
+    "scr_xt_trip_rabbit_death",
+    "scr_xt_vanish_smoke",
+    "sp_xt_appear_smoke_trails"
+  ],
+  "veh_akula": [
+    "bullet_tracer_xm_akula_mg_turret",
+    "eject_xm_akula_mg_turret",
+    "muz_xm_akula_mg_turret"
+  ],
+  "veh_avenger": [
+    "veh_xm_avenger_downwash_default",
+    "veh_xm_avenger_downwash_dirt",
+    "veh_xm_avenger_downwash_sand",
+    "veh_xm_avenger_downwash_vegetation",
+    "veh_xm_avenger_downwash_water",
+    "veh_xm_vent_plane_avenger"
+  ],
+  "veh_barrage": [
+    "bullet_tracer_xm_barrage_turret",
+    "eject_xm_barrage_mg_turret",
+    "eject_xm_barrage_mg_turret_rear",
+    "eject_xm_barrage_minigun_turret",
+    "muz_xm_barrage_mg_turret",
+    "muz_xm_barrage_minigun_turret"
+  ],
+  "veh_ba_blimp3": [
+    "exp_blimp3_0",
+    "exp_blimp3_1",
+    "exp_blimp3_10",
+    "exp_blimp3_11",
+    "exp_blimp3_12",
+    "exp_blimp3_13",
+    "exp_blimp3_14",
+    "exp_blimp3_15",
+    "exp_blimp3_16",
+    "exp_blimp3_17",
+    "exp_blimp3_18",
+    "exp_blimp3_19",
+    "exp_blimp3_2",
+    "exp_blimp3_3",
+    "exp_blimp3_4",
+    "exp_blimp3_5",
+    "exp_blimp3_6",
+    "exp_blimp3_7",
+    "exp_blimp3_8",
+    "exp_blimp3_9"
+  ],
+  "veh_ba_oppressor2": [
+    "exp_grd_ba_opp2_cannon",
+    "veh_ba_oppressor_engine_glow",
+    "veh_ba_oppressor_turbulance_default",
+    "veh_ba_oppressor_turbulance_dirt",
+    "veh_ba_oppressor_turbulance_foliage",
+    "veh_ba_oppressor_turbulance_sand",
+    "veh_ba_oppressor_turbulance_water"
+  ],
+  "veh_ba_strikeforce": [
+    "veh_exhaust_strikeforce"
+  ],
+  "veh_chernobog": [
+    "muz_xm_cherno"
+  ],
+  "veh_deluxo": [
+    "veh_xm_deluxo_engine_glow",
+    "veh_xm_deluxo_glide_haze",
+    "veh_xm_deluxo_turbulance_default",
+    "veh_xm_deluxo_turbulance_dirt",
+    "veh_xm_deluxo_turbulance_foliage",
+    "veh_xm_deluxo_turbulance_sand",
+    "veh_xm_deluxo_turbulance_water"
+  ],
+  "veh_ih_alk": [
+    "veh_ih_exhaust_afterburner_alk"
+  ],
+  "veh_impexp_rocket": [
+    "veh_rocket_boost"
+  ],
+  "veh_impexp_ruiner": [
+    "veh_ruiner_hop"
+  ],
+  "veh_khanjali": [
+    "bullet_tracer_xm_khanjali_mg",
+    "eject_xm_khanjali_mg",
+    "muz_xm_khanjali_mg",
+    "muz_xm_khanjali_railgun",
+    "muz_xm_khanjali_railgun_charge",
+    "proj_xm_khanjali_grenade_trail",
+    "proj_xm_khanjali_railgun_trail"
+  ],
+  "veh_mounted_turrets_car": [
+    "bullet_tracer_turret",
+    "eject_mounted_turret",
+    "eject_mounted_turret_technical",
+    "muz_mounted_turret"
+  ],
+  "veh_mounted_turrets_heli": [
+    "bullet_tracer_valkyrie",
+    "eject_mounted_turret",
+    "eject_valkyrie",
+    "muz_valkyrie",
+    "muz_valkyrie_turret"
+  ],
+  "veh_mounted_turret_limo": [
+    "eject_mounted_turret_limo"
+  ],
+  "veh_sanctus": [
+    "veh_sanctus_backfire",
+    "veh_sanctus_exhaust",
+    "veh_sanctus_exhaust_start"
+  ],
+  "veh_sm_car_small": [
+    "veh_sm_car_small_backfire"
+  ],
+  "veh_sm_pyro": [
+    "veh_exhaust_afterburner_molotok",
+    "veh_exhaust_afterburner_pyro"
+  ],
+  "veh_sm_starling": [
+    "veh_afterburner_starling",
+    "veh_exhaust_starling",
+    "veh_vent_plane_starling"
+  ],
+  "veh_sm_vig": [
+    "bullet_tracer_sm_vehicle_mg",
+    "muz_sm_vehicle_mg",
+    "veh_rocket_boost_vig"
+  ],
+  "veh_stromberg": [
+    "exp_underwater_torpedo",
+    "muz_torpedo",
+    "muz_xm_strom_mg",
+    "proj_torpedo_trail",
+    "veh_prop_stromberg",
+    "veh_xm_strom_underwater_trail"
+  ],
+  "veh_thruster": [
+    "bullet_tracer_xm_thruster_mg",
+    "muz_xm_thruster_mg",
+    "muz_xm_thruster_rpg",
+    "proj_xm_thruster_rpg_trail",
+    "veh_thruster_jet",
+    "veh_xm_thruster_afterburner",
+    "veh_xm_thruster_downwash",
+    "veh_xm_thruster_downwash_dirt",
+    "veh_xm_thruster_downwash_foliage",
+    "veh_xm_thruster_downwash_sand",
+    "veh_xm_thruster_downwash_water",
+    "veh_xm_thruster_engine_damage",
+    "veh_xm_thruster_wreck_fire"
+  ],
+  "veh_volatol": [
+    "muz_xm_volatol_twinmg",
+    "scr_xm_volatol_turret_camera",
+    "veh_vent_plane_volatol"
+  ],
+  "veh_xs_vehicle_mods": [
+    "exp_xs_mine_emp",
+    "exp_xs_mine_kinetic",
+    "exp_xs_mine_slick",
+    "exp_xs_mine_spike",
+    "exp_xs_mine_tar",
+    "veh_nitrous",
+    "veh_xs_electrified_rambar"
+  ],
+  "weap_ba_vehicle_weapons": [
+    "bullet_tracer_ba_vehicle_remote_mg",
+    "eject_ba_vehicle_remote_mg",
+    "eject_ba_vehicle_remote_minigun",
+    "muz_ba_vehicle_front_mg",
+    "muz_ba_vehicle_remote_mg",
+    "muz_ba_vehicle_remote_minigun",
+    "muz_ba_vehicle_remote_missile",
+    "proj_ba_remote_gl_trail"
+  ],
+  "weap_ch_vehicle_weapons": [
+    "bullet_tracer_ch_tank_laser",
+    "bullet_tracer_ch_tank_mg",
+    "muz_ch_tank_flamethrower",
+    "muz_ch_tank_laser",
+    "muz_ch_tank_mg",
+    "muz_ch_tank_rocket"
+  ],
+  "weap_ch_weapons": [
+    "weap_ch_hazcan",
+    "weap_ch_hazcan_splash_sp"
+  ],
+  "weap_dbshotgun": [
+    "eject_dbshotgun",
+    "eject_dbshotgun_fp"
+  ],
+  "weap_gr_vehicle_weapons": [
+    "bullet_tracer_opp_fp",
+    "bullet_tracer_turret_gr",
+    "bullet_tracer_turret_gr_tampa",
+    "eject_mounted_turret_dune_mg",
+    "eject_mounted_turret_dune_minigun",
+    "eject_mounted_turret_insurgent3_minigun",
+    "eject_mounted_turret_quadmg",
+    "eject_mounted_turret_tampa_minigun",
+    "eject_mounted_turret_twinmg",
+    "muz_gr_vehicle_mg",
+    "muz_gr_vehicle_opp",
+    "muz_mounted_turret_apc",
+    "muz_mounted_turret_apc_mg",
+    "muz_mounted_turret_apc_missile",
+    "muz_mounted_turret_dune_mg",
+    "muz_mounted_turret_dune_minigun",
+    "muz_mounted_turret_dune_minigun_fp",
+    "muz_mounted_turret_tampa_minigun",
+    "muz_mounted_turret_twinmg",
+    "muz_mounted_turret_twinmg_trailer",
+    "proj_gr_moc_cannon_trail",
+    "proj_mounted_turret_mortar"
+  ],
+  "weap_gr_weapons": [
+    "bullet_tracer_gr_tintable"
+  ],
+  "weap_hr_duster2": [
+    "weap_hr_duster2_mg"
+  ],
+  "weap_hr_titan2": [
+    "exp_hr_titan2_40_air",
+    "exp_hr_titan2_40_grd",
+    "muz_hr_titan2_105",
+    "muz_hr_titan2_25",
+    "muz_hr_titan2_40"
+  ],
+  "weap_ie_vehicle_mg": [
+    "bullet_tracer_ie_vehicle_mg",
+    "muz_ie_vehicle_mg"
+  ],
+  "weap_ih_gpistol": [
+    "eject_ih_gpistol",
+    "eject_ih_gpistol_fp",
+    "muz_ih_gpistol"
+  ],
+  "weap_ih_patrolboat": [
+    "bullet_tracer_ih_patrolboat",
+    "eject_ih_turret_patrolboat",
+    "eject_ih_turret_patrolboat_twinmg",
+    "muz_ih_turret_patrolboat"
+  ],
+  "weap_ih_vehicle_ann2": [
+    "eject_heli_gun_ann"
+  ],
+  "weap_minismg": [
+    "eject_minismg",
+    "eject_minismg_fp"
+  ],
+  "weap_pipebomb": [
+    "proj_pipebomb_smoke"
+  ],
+  "weap_revolver": [
+    "eject_revolver"
+  ],
+  "weap_sm_barrage": [
+    "proj_rpg_barrage_trail"
+  ],
+  "weap_sm_bom": [
+    "bullet_tracer_turret_sm",
+    "eject_sm_bom_twinmg",
+    "muz_sm_bom_cannon",
+    "muz_sm_bom_twinmg",
+    "proj_rpg_barrage_trail",
+    "veh_vent_plane_bom"
+  ],
+  "weap_sm_mogul": [
+    "bullet_tracer_turret_mogul",
+    "muz_sm_mogul_turret_mg"
+  ],
+  "weap_sm_tula": [
+    "bullet_tracer_turret_tula",
+    "eject_sm_tula_turret_mg",
+    "eject_sm_tula_turret_minigun",
+    "muz_sm_tula_mg",
+    "muz_sm_tula_turret_mg",
+    "veh_seabreeze_turbulance_water",
+    "veh_tula_turbulance_water",
+    "veh_vent_plane_tula"
+  ],
+  "weap_sv_sl": [
+    "muz_sv_sl",
+    "muz_sv_sl_empty"
+  ],
+  "weap_xm_revolver": [
+    "eject_xm_revolver",
+    "muz_xm_revolver"
+  ],
+  "weap_xm_shotgun_rounds": [
+    "eject_shotgun_ap",
+    "eject_shotgun_ap_fp",
+    "eject_shotgun_exp",
+    "eject_shotgun_exp_fp",
+    "eject_shotgun_hp",
+    "eject_shotgun_hp_fp",
+    "eject_shotgun_inc",
+    "eject_shotgun_inc_fp",
+    "tracer_xm_shotgun_inc"
+  ],
+  "weap_xs_vehicle_weapons": [
+    "bullet_tracer_xs_vehicle_remote_mg_sf",
+    "muz_xs_turret_flamethrower_looping",
+    "muz_xs_turret_flamethrower_looping_sf",
+    "muz_xs_vehicle_remote_mg_sf"
+  ],
+  "weap_xs_weapons": [
+    "bullet_tracer_xs_sr",
+    "exp_xs_ray",
+    "muz_xs_sr_carbine",
+    "muz_xs_sr_minigun",
+    "muz_xs_sr_raygun",
+    "proj_xs_sr_raygun_trail"
+  ],
+  "wpn_amrifle": [
+    "eject_sniper_amrifle"
+  ],
+  "wpn_flare": [
+    "proj_heist_flare_trail"
+  ],
+  "wpn_indep_firework": [
+    "muz_indep_firework"
+  ],
+  "wpn_musket": [
+    "muz_musket_ng"
+  ]
+}
